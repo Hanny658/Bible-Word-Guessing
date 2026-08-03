@@ -2,3 +2,8 @@
 # https://opennext.js.org/cloudflare/caching#static-assets-caching
 /_next/static/*
   Cache-Control: public,max-age=31536000,immutable
+
+# Mirrors the /words/v1/:path* rule in next.config.ts. Word lists are served by
+# the assets binding, which bypasses Next's headers() entirely.
+/words/v1/*
+  Cache-Control: public,max-age=31536000,immutable
