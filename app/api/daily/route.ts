@@ -1,7 +1,6 @@
 import { getDailyPuzzle } from "@/lib/server/puzzle";
 
 export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
 
 export function GET() {
   return Response.json(getDailyPuzzle(), {

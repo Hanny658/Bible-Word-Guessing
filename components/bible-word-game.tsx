@@ -13,21 +13,27 @@ import {
   useMemo,
   useRef,
   useState,
+  useSyncExternalStore,
 } from "react";
+import { copyText } from "@/lib/client/clipboard";
+import {
+  getLanguageSnapshot,
+  getServerLanguageSnapshot,
+  loadProgress,
+  pruneProgress,
+  saveProgress,
+  setLanguagePreference,
+  subscribeLanguage,
+} from "@/lib/client/storage";
 import { evaluateGuess, isLetterKey, keyboardStates } from "@/lib/game";
+import { buildShareText } from "@/lib/share";
 import type {
   DailyPuzzle,
   EvaluatedLetter,
+  GameStatus,
+  Language,
   LetterState,
 } from "@/lib/types";
-
-type Language = "en" | "zh";
-type GameStatus = "playing" | "won" | "lost";
-
-type Progress = {
-  puzzleId: string;
-  guesses: string[];
-};
 
 const COPY = {
   en: {
@@ -63,6 +69,16 @@ const COPY = {
     statusPresent: "present elsewhere",
     statusAbsent: "not in the word",
     dismiss: "Close",
+    share: "Copy result",
+    shareCopied: "Result copied",
+    shareFailed: "Copying isn't available",
+    shareHint: "Copies your grid of squares — never the word itself.",
+    saveUnavailable: "Progress can't be saved in this browser.",
+    boardLabel: "Word board",
+    keyboardLabel: "Keyboard",
+    emptyTile: "empty",
+    guessProgress: "Guess {n} of {max}",
+    resultAnswer: "The word was {word}.",
   },
   zh: {
     brand: "字里经心",
@@ -96,8 +112,20 @@ const COPY = {
     statusPresent: "存在但位置不同",
     statusAbsent: "答案中不存在",
     dismiss: "关闭",
+    share: "复制成绩",
+    shareCopied: "成绩已复制",
+    shareFailed: "无法复制到剪贴板",
+    shareHint: "只会复制方块图案，不会泄露答案。",
+    saveUnavailable: "此浏览器无法保存进度。",
+    boardLabel: "字母棋盘",
+    keyboardLabel: "键盘",
+    emptyTile: "空格",
+    guessProgress: "第 {n} 次猜测，共 {max} 次",
+    resultAnswer: "答案是 {word}。",
   },
 } as const;
+
+type Copy = (typeof COPY)[Language];
 
 const KEYBOARD_ROWS = [
   ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
@@ -111,15 +139,28 @@ const STATUS_SYMBOL: Record<LetterState, string> = {
   absent: "×",
 };
 
-function getInitialLanguage(): Language {
-  if (typeof window === "undefined") return "en";
-  const saved = window.localStorage.getItem("bwd-language");
-  if (saved === "en" || saved === "zh") return saved;
-  return window.navigator.language.toLowerCase().startsWith("zh") ? "zh" : "en";
+const FOCUSABLE_SELECTOR =
+  'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+function stateLabel(state: LetterState, copy: Copy) {
+  if (state === "correct") return copy.statusCorrect;
+  if (state === "present") return copy.statusPresent;
+  return copy.statusAbsent;
 }
 
-function progressKey(puzzleId: string) {
-  return `bwd-progress:${puzzleId}`;
+function describeGuess(
+  evaluated: EvaluatedLetter[],
+  attempt: number,
+  maxAttempts: number,
+  copy: Copy,
+) {
+  const heading = copy.guessProgress
+    .replace("{n}", String(attempt))
+    .replace("{max}", String(maxAttempts));
+  const tiles = evaluated
+    .map((tile) => `${tile.letter} ${stateLabel(tile.state, copy)}`)
+    .join(", ");
+  return `${heading}: ${tiles}`;
 }
 
 function deriveStatus(answer: string, guesses: string[], maxAttempts: number): GameStatus {
@@ -139,7 +180,11 @@ function formatDate(dateUtc: string, language: Language) {
 
 export function BibleWordGame() {
   const reducedMotion = useReducedMotion();
-  const [language, setLanguage] = useState<Language>("en");
+  const language = useSyncExternalStore(
+    subscribeLanguage,
+    getLanguageSnapshot,
+    getServerLanguageSnapshot,
+  );
   const [puzzle, setPuzzle] = useState<DailyPuzzle | null>(null);
   const [acceptableGuesses, setAcceptableGuesses] = useState<Set<string> | null>(null);
   const [guesses, setGuesses] = useState<string[]>([]);
@@ -148,6 +193,7 @@ export function BibleWordGame() {
   const [loadError, setLoadError] = useState(false);
   const [loadNonce, setLoadNonce] = useState(0);
   const [message, setMessage] = useState("");
+  const [announcement, setAnnouncement] = useState("");
   const [shakeNonce, setShakeNonce] = useState(0);
   const [activeRevealRow, setActiveRevealRow] = useState<number | null>(null);
   const [celebratingRow, setCelebratingRow] = useState<number | null>(null);
@@ -155,16 +201,14 @@ export function BibleWordGame() {
   const [showResult, setShowResult] = useState(false);
   const [newPuzzleAvailable, setNewPuzzleAvailable] = useState(false);
   const revealTimer = useRef<number | null>(null);
+  const messageTimer = useRef<number | null>(null);
+  const celebrateTimer = useRef<number | null>(null);
+  const saveWarned = useRef(false);
   const copy = COPY[language];
 
   useEffect(() => {
-    const timer = window.setTimeout(() => {
-      const initialLanguage = getInitialLanguage();
-      setLanguage(initialLanguage);
-      document.documentElement.lang = initialLanguage === "zh" ? "zh-CN" : "en";
-    }, 0);
-    return () => window.clearTimeout(timer);
-  }, []);
+    document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
+  }, [language]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -191,24 +235,11 @@ export function BibleWordGame() {
           throw new Error("Today's answer is missing from the guess list.");
         }
 
-        let restored: string[] = [];
-        try {
-          const stored = window.localStorage.getItem(progressKey(nextPuzzle.puzzleId));
-          if (stored) {
-            const progress = JSON.parse(stored) as Progress;
-            if (progress.puzzleId === nextPuzzle.puzzleId) {
-              restored = progress.guesses
-                .map((guess) => guess.toUpperCase())
-                .filter(
-                  (guess) =>
-                    guess.length === nextPuzzle.length && words.has(guess),
-                )
-                .slice(0, nextPuzzle.maxAttempts);
-            }
-          }
-        } catch {
-          window.localStorage.removeItem(progressKey(nextPuzzle.puzzleId));
-        }
+        const restored = loadProgress(nextPuzzle.puzzleId)
+          .map((guess) => guess.toUpperCase())
+          .filter((guess) => guess.length === nextPuzzle.length && words.has(guess))
+          .slice(0, nextPuzzle.maxAttempts);
+        pruneProgress(nextPuzzle.puzzleId);
 
         const restoredStatus = deriveStatus(
           nextPuzzle.answer,
@@ -238,7 +269,9 @@ export function BibleWordGame() {
 
   useEffect(() => {
     return () => {
-      if (revealTimer.current !== null) window.clearTimeout(revealTimer.current);
+      for (const timer of [revealTimer, messageTimer, celebrateTimer]) {
+        if (timer.current !== null) window.clearTimeout(timer.current);
+      }
     };
   }, []);
 
@@ -248,10 +281,11 @@ export function BibleWordGame() {
   );
   const keyStates = useMemo(() => keyboardStates(evaluatedRows), [evaluatedRows]);
 
-  const announceError = useCallback((text: string) => {
+  const showToast = useCallback((text: string, shake = false) => {
     setMessage(text);
-    setShakeNonce((value) => value + 1);
-    window.setTimeout(() => setMessage(""), 1700);
+    if (shake) setShakeNonce((value) => value + 1);
+    if (messageTimer.current !== null) window.clearTimeout(messageTimer.current);
+    messageTimer.current = window.setTimeout(() => setMessage(""), 1700);
   }, []);
 
   const submitGuess = useCallback(() => {
@@ -264,11 +298,11 @@ export function BibleWordGame() {
       return;
     }
     if (currentGuess.length !== puzzle.length) {
-      announceError(copy.notEnough);
+      showToast(copy.notEnough, true);
       return;
     }
     if (!acceptableGuesses.has(currentGuess)) {
-      announceError(copy.notInList);
+      showToast(copy.notInList, true);
       return;
     }
 
@@ -283,10 +317,30 @@ export function BibleWordGame() {
     setCurrentGuess("");
     setGameStatus(nextStatus);
     setActiveRevealRow(rowIndex);
-    window.localStorage.setItem(
-      progressKey(puzzle.puzzleId),
-      JSON.stringify({ puzzleId: puzzle.puzzleId, guesses: nextGuesses } satisfies Progress),
+
+    const spoken = [
+      describeGuess(
+        evaluateGuess(puzzle.answer, currentGuess),
+        nextGuesses.length,
+        puzzle.maxAttempts,
+        copy,
+      ),
+    ];
+    if (nextStatus === "won") spoken.push(copy.won);
+    if (nextStatus === "lost") {
+      spoken.push(copy.lost, copy.resultAnswer.replace("{word}", puzzle.answer));
+    }
+    setAnnouncement(spoken.join(" "));
+
+    // Persistence is best effort: a browser with storage disabled still plays.
+    const saved = saveProgress(
+      { puzzleId: puzzle.puzzleId, guesses: nextGuesses },
+      Date.parse(puzzle.nextPuzzleAt),
     );
+    if (!saved && !saveWarned.current) {
+      saveWarned.current = true;
+      showToast(copy.saveUnavailable);
+    }
 
     const revealDuration = reducedMotion ? 0 : 520 + (puzzle.length - 1) * 115;
     if (revealTimer.current !== null) window.clearTimeout(revealTimer.current);
@@ -294,21 +348,24 @@ export function BibleWordGame() {
       setActiveRevealRow(null);
       if (nextStatus === "won") {
         setCelebratingRow(rowIndex);
-        window.setTimeout(() => setCelebratingRow(null), reducedMotion ? 0 : 650);
+        if (celebrateTimer.current !== null) window.clearTimeout(celebrateTimer.current);
+        celebrateTimer.current = window.setTimeout(
+          () => setCelebratingRow(null),
+          reducedMotion ? 0 : 650,
+        );
       }
       if (nextStatus !== "playing") setShowResult(true);
     }, revealDuration);
   }, [
     acceptableGuesses,
     activeRevealRow,
-    announceError,
-    copy.notEnough,
-    copy.notInList,
+    copy,
     currentGuess,
     gameStatus,
     guesses,
     puzzle,
     reducedMotion,
+    showToast,
   ]);
 
   const handleInput = useCallback(
@@ -352,10 +409,7 @@ export function BibleWordGame() {
   }, [handleInput]);
 
   const toggleLanguage = () => {
-    const next = language === "en" ? "zh" : "en";
-    setLanguage(next);
-    window.localStorage.setItem("bwd-language", next);
-    document.documentElement.lang = next === "zh" ? "zh-CN" : "en";
+    setLanguagePreference(language === "en" ? "zh" : "en");
   };
 
   const retryLoad = () => {
@@ -416,10 +470,10 @@ export function BibleWordGame() {
         </button>
       </header>
 
-      <div className="date-rule" aria-label={`${formatDate(puzzle.dateUtc, language)} UTC`}>
-        <span />
+      <div className="date-rule">
+        <span aria-hidden="true" />
         <time dateTime={puzzle.dateUtc}>{formatDate(puzzle.dateUtc, language)}</time>
-        <span />
+        <span aria-hidden="true" />
       </div>
 
       <AnimatePresence>
@@ -436,7 +490,7 @@ export function BibleWordGame() {
         )}
       </AnimatePresence>
 
-      <section className="board-region" aria-label="Word board">
+      <section className="board-region" aria-label={copy.boardLabel}>
         <div className="attempt-caption">
           <span>{guesses.length}</span> / {puzzle.maxAttempts} {copy.attempt}
         </div>
@@ -462,7 +516,11 @@ export function BibleWordGame() {
         </div>
       </section>
 
-      <div className="message-slot" aria-live="polite" aria-atomic="true">
+      <p className="visually-hidden" role="status" aria-live="polite" aria-atomic="true">
+        {announcement}
+      </p>
+
+      <div className="message-slot" aria-live="assertive" aria-atomic="true">
         <AnimatePresence mode="wait">
           {message && (
             <motion.div
@@ -495,15 +553,25 @@ export function BibleWordGame() {
 
       <AnimatePresence>
         {showHelp && (
-          <Modal onClose={() => setShowHelp(false)} closeLabel={copy.dismiss}>
+          <Modal
+            onClose={() => setShowHelp(false)}
+            closeLabel={copy.dismiss}
+            labelledBy="help-title"
+          >
             <HelpContent language={language} />
           </Modal>
         )}
         {showResult && (
-          <Modal onClose={() => setShowResult(false)} closeLabel={copy.dismiss} wide>
+          <Modal
+            onClose={() => setShowResult(false)}
+            closeLabel={copy.dismiss}
+            labelledBy="result-title"
+            wide
+          >
             <ResultContent
               puzzle={puzzle}
               status={gameStatus}
+              rows={evaluatedRows}
               language={language}
               onClose={() => setShowResult(false)}
             />
@@ -559,19 +627,14 @@ function BoardRow({
         const evaluatedTile = evaluated?.[columnIndex];
         const letter = evaluatedTile?.letter ?? current[columnIndex] ?? "";
         const label = evaluatedTile
-          ? `${letter}, ${
-              evaluatedTile.state === "correct"
-                ? copy.statusCorrect
-                : evaluatedTile.state === "present"
-                  ? copy.statusPresent
-                  : copy.statusAbsent
-            }`
-          : letter || "empty";
+          ? `${letter}, ${stateLabel(evaluatedTile.state, copy)}`
+          : letter || copy.emptyTile;
 
         return (
           <motion.div
             className="tile-scene"
             key={`${rowIndex}-${columnIndex}-${letter}`}
+            role="img"
             aria-label={label}
             animate={
               celebrate && !reducedMotion
@@ -633,7 +696,7 @@ function Keyboard({
 }) {
   const copy = COPY[language];
   return (
-    <section className="keyboard" aria-label="Keyboard">
+    <section className="keyboard" aria-label={copy.keyboardLabel}>
       {KEYBOARD_ROWS.map((row, rowIndex) => (
         <div className={`keyboard-row row-${rowIndex + 1}`} key={row.join("")}>
           {row.map((key) => {
@@ -650,15 +713,7 @@ function Keyboard({
                 onClick={() => onKey(key)}
                 disabled={disabled}
                 aria-label={
-                  state
-                    ? `${keyLabel}, ${
-                        state === "correct"
-                          ? copy.statusCorrect
-                          : state === "present"
-                            ? copy.statusPresent
-                            : copy.statusAbsent
-                      }`
-                    : keyLabel
+                  state ? `${keyLabel}, ${stateLabel(state, copy)}` : keyLabel
                 }
               >
                 {key === "ENTER" ? "↵" : key === "BACKSPACE" ? "⌫" : key}
@@ -680,22 +735,62 @@ function Modal({
   children,
   onClose,
   closeLabel,
+  labelledBy,
   wide = false,
 }: {
   children: ReactNode;
   onClose: () => void;
   closeLabel: string;
+  labelledBy: string;
   wide?: boolean;
 }) {
   const closeRef = useRef<HTMLButtonElement>(null);
+  const cardRef = useRef<HTMLElement>(null);
+  // Held in a ref so an inline `onClose` prop cannot restart the effect below
+  // and pull focus back to the close button on every parent render.
+  const onCloseRef = useRef(onClose);
   useEffect(() => {
-    closeRef.current?.focus();
-    function onEscape(event: KeyboardEvent) {
-      if (event.key === "Escape") onClose();
-    }
-    window.addEventListener("keydown", onEscape);
-    return () => window.removeEventListener("keydown", onEscape);
+    onCloseRef.current = onClose;
   }, [onClose]);
+
+  useEffect(() => {
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    closeRef.current?.focus();
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        onCloseRef.current();
+        return;
+      }
+      if (event.key !== "Tab" || !cardRef.current) return;
+
+      const focusable = [
+        ...cardRef.current.querySelectorAll<HTMLElement>(FOCUSABLE_SELECTOR),
+      ];
+      if (focusable.length === 0) return;
+
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      const active = document.activeElement;
+
+      if (!cardRef.current.contains(active)) {
+        event.preventDefault();
+        first.focus();
+      } else if (event.shiftKey && active === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && active === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      previouslyFocused?.focus?.();
+    };
+  }, []);
 
   return (
     <motion.div
@@ -708,9 +803,11 @@ function Modal({
       }}
     >
       <motion.section
+        ref={cardRef}
         className={wide ? "modal-card result-card" : "modal-card"}
         role="dialog"
         aria-modal="true"
+        aria-labelledby={labelledBy}
         initial={{ opacity: 0, y: 28, scale: 0.98 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 18, scale: 0.98 }}
@@ -735,14 +832,14 @@ function HelpContent({ language }: { language: Language }) {
   return (
     <div className="help-content">
       <p className="modal-kicker">{copy.brand}</p>
-      <h2>{copy.helpTitle}</h2>
+      <h2 id="help-title">{copy.helpTitle}</h2>
       <p>{copy.helpIntro}</p>
       <div className="help-examples">
         {examples.map((example) => (
           <div className="help-example" key={example.state}>
-            <span className="mini-tile" data-state={example.state}>
+            <span className="mini-tile" data-state={example.state} aria-hidden="true">
               {example.letter}
-              <small aria-hidden="true">{STATUS_SYMBOL[example.state]}</small>
+              <small>{STATUS_SYMBOL[example.state]}</small>
             </span>
             <span>{example.label}</span>
           </div>
@@ -756,22 +853,56 @@ function HelpContent({ language }: { language: Language }) {
 function ResultContent({
   puzzle,
   status,
+  rows,
   language,
   onClose,
 }: {
   puzzle: DailyPuzzle;
   status: GameStatus;
+  rows: EvaluatedLetter[][];
   language: Language;
   onClose: () => void;
 }) {
   const copy = COPY[language];
+  const [shareState, setShareState] = useState<"idle" | "copied" | "failed">("idle");
+  const shareTimer = useRef<number | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (shareTimer.current !== null) window.clearTimeout(shareTimer.current);
+    };
+  }, []);
+
+  const handleShare = async () => {
+    const copied = await copyText(
+      buildShareText({
+        brand: copy.brand,
+        dateUtc: puzzle.dateUtc,
+        maxAttempts: puzzle.maxAttempts,
+        status,
+        rows,
+        origin: window.location.origin,
+      }),
+    );
+    setShareState(copied ? "copied" : "failed");
+    if (shareTimer.current !== null) window.clearTimeout(shareTimer.current);
+    shareTimer.current = window.setTimeout(() => setShareState("idle"), 2200);
+  };
+
+  const shareLabel =
+    shareState === "copied"
+      ? copy.shareCopied
+      : shareState === "failed"
+        ? copy.shareFailed
+        : copy.share;
+
   return (
     <div className="result-content">
       <div className="result-ornament" aria-hidden="true">
         <span />✦<span />
       </div>
       <p className="modal-kicker">{copy.resultEyebrow}</p>
-      <h2>{puzzle.answer}</h2>
+      <h2 id="result-title">{puzzle.answer}</h2>
       <p className="result-response">{status === "won" ? copy.won : copy.lost}</p>
       <p className="explanation">{puzzle.explanation[language]}</p>
       {puzzle.sampleVerse && (
@@ -782,9 +913,23 @@ function ResultContent({
           </cite>
         </blockquote>
       )}
-      <button className="primary-button" onClick={onClose}>
-        {copy.close}
-      </button>
+      <div className="result-actions">
+        <button
+          className="share-button"
+          onClick={handleShare}
+          data-state={shareState}
+          title={copy.shareHint}
+        >
+          <span aria-hidden="true">🟩</span> {shareLabel}
+        </button>
+        <button className="primary-button" onClick={onClose}>
+          {copy.close}
+        </button>
+      </div>
+      <p className="share-hint">{copy.shareHint}</p>
+      <p className="visually-hidden" role="status" aria-live="polite">
+        {shareState === "idle" ? "" : shareLabel}
+      </p>
     </div>
   );
 }

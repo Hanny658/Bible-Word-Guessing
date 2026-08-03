@@ -274,9 +274,12 @@ const categoryLabels = {
 };
 
 export function explanationFor(row, existing) {
+  // An explanation already in answers.json wins, so hand edits survive a
+  // re-import. The curated SPECIAL entries only seed words not yet written.
+  if (existing?.en?.trim() && existing?.zh?.trim()) return existing;
+
   const special = SPECIAL[row.word];
   if (special) return { en: special[0], zh: special[1] };
-  if (existing?.en?.trim() && existing?.zh?.trim()) return existing;
 
   const [englishKind, chineseKind] = categoryLabels[row.category];
   const name = titleCase(row.word);

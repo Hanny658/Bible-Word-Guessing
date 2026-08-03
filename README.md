@@ -16,7 +16,8 @@ Open <http://localhost:3000>. No account, database, or environment variables are
 - `data/answers.json` is committed runtime data and is imported through a `server-only` module.
 - `GET /api/daily` returns the UTC day's single answer and reveal content.
 - `public/words/v1/guesses-{4,5,6,7}.txt` contains static acceptable guesses. The browser downloads only the list matching today's answer length.
-- Board progress and language preference are stored only in the browser's `localStorage`.
+- Board progress and language preference are stored only in the browser, in `localStorage` when it is available and in a same-site cookie when it is not. Saving is best effort: a browser that blocks both still plays a full game, it just cannot resume after a reload.
+- Finished boards can be copied as a grid of coloured squares. The shared text contains only tile states, never the answer.
 - `.doc/bible_word_candidates.csv` remains an ignored working document and is not required by production builds.
 
 The ordinary English guesses come from [`word-list`](https://github.com/sindresorhus/word-list), an MIT-licensed word list. Bible answer terms are added to that set during generation.
@@ -28,6 +29,10 @@ pnpm data:import    # import working CSV, preserving existing explanations
 pnpm data:words     # regenerate the four versioned guess lists
 pnpm data:validate  # validate all answers and answer/guess-set invariants
 ```
+
+`data:import` keeps any explanation already present in `data/answers.json`, so hand-written text survives a re-import; the curated entries in `scripts/explanations.mjs` only seed words that have none yet.
+
+The answer count is read from the data rather than hard-coded. Set `BWD_EXPECTED_ANSWER_COUNT` to pin it in CI or production, and both `pnpm data:validate` and the server will fail if the set ever drifts from that size.
 
 When the answer data or word lists change, create a new dataset version instead of replacing files under `public/words/v1`, because v1 assets are served with immutable cache headers.
 

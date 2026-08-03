@@ -27,6 +27,39 @@ function rankForAnswer(answer: Answer, cycle: number) {
     .digest("hex");
 }
 
+type Ranked = { answer: Answer; rank: string };
+
+/**
+ * Compares by raw code unit rather than `localeCompare`, so the ordering cannot
+ * drift between servers running different locales or ICU builds. Every player
+ * must resolve the same word for a given UTC day.
+ */
+function compareRanked(left: Ranked, right: Ranked) {
+  if (left.rank !== right.rank) return left.rank < right.rank ? -1 : 1;
+  if (left.answer.word === right.answer.word) return 0;
+  return left.answer.word < right.answer.word ? -1 : 1;
+}
+
+/**
+ * One cycle spans the whole answer set, so the shuffled ordering only changes
+ * every `answers.length` days. Caching it keeps the per-request cost of a
+ * daily puzzle at a single array index instead of a full hash-and-sort pass.
+ */
+const orderingCache = new WeakMap<Answer[], { cycle: number; ordered: Answer[] }>();
+
+function orderingForCycle(answers: Answer[], cycle: number) {
+  const cached = orderingCache.get(answers);
+  if (cached?.cycle === cycle) return cached.ordered;
+
+  const ordered = answers
+    .map((answer) => ({ answer, rank: rankForAnswer(answer, cycle) }))
+    .sort(compareRanked)
+    .map((entry) => entry.answer);
+
+  orderingCache.set(answers, { cycle, ordered });
+  return ordered;
+}
+
 export function answerForDate(answers: Answer[], date: Date) {
   if (answers.length === 0) throw new Error("The answer set is empty.");
 
@@ -36,15 +69,8 @@ export function answerForDate(answers: Answer[], date: Date) {
   const dayOffset = Math.floor((dateStart - epochStart) / DAY_MS);
   const cycle = Math.floor(dayOffset / answers.length);
   const dayInCycle = modulo(dayOffset, answers.length);
-  const ordered = answers
-    .map((answer) => ({ answer, rank: rankForAnswer(answer, cycle) }))
-    .sort((left, right) =>
-      left.rank === right.rank
-        ? left.answer.word.localeCompare(right.answer.word)
-        : left.rank.localeCompare(right.rank),
-    );
 
-  return ordered[dayInCycle].answer;
+  return orderingForCycle(answers, cycle)[dayInCycle];
 }
 
 export function buildDailyPuzzle(

@@ -13,8 +13,16 @@ const expectedCategories = new Set([
 const seen = new Set();
 
 if (data.version !== "v1") throw new Error("Unexpected answer data version.");
-if (data.answers.length !== 580) {
-  throw new Error(`Expected 580 answers, received ${data.answers.length}.`);
+if (!Array.isArray(data.answers) || data.answers.length === 0) {
+  throw new Error("The answer set is empty.");
+}
+
+// Optional pin: set BWD_EXPECTED_ANSWER_COUNT to fail when the size drifts.
+const expectedCount = process.env.BWD_EXPECTED_ANSWER_COUNT;
+if (expectedCount && data.answers.length !== Number(expectedCount)) {
+  throw new Error(
+    `Expected ${expectedCount} answers, received ${data.answers.length}.`,
+  );
 }
 
 for (const answer of data.answers) {
@@ -53,4 +61,6 @@ for (const length of [4, 5, 6, 7]) {
   }
 }
 
-console.log("Validated 580 answers and all four acceptable-guess lists.");
+console.log(
+  `Validated ${data.answers.length} answers and all four acceptable-guess lists.`,
+);

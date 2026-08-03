@@ -28,7 +28,35 @@ describe("daily puzzle selection", () => {
       const date = new Date(Date.UTC(2026, 0, 1 + day));
       words.add(answerForDate(answers, date).word);
     }
-    expect(words.size).toBe(580);
+    expect(words.size).toBe(answers.length);
+  });
+
+  it("reshuffles without repeating in the next cycle", () => {
+    const dayOf = (offset: number) =>
+      answerForDate(answers, new Date(Date.UTC(2026, 0, 1 + offset))).word;
+
+    const secondCycle = new Set<string>();
+    for (let day = 0; day < answers.length; day += 1) {
+      secondCycle.add(dayOf(answers.length + day));
+    }
+    expect(secondCycle.size).toBe(answers.length);
+    expect(dayOf(answers.length)).not.toBe(dayOf(0));
+  });
+
+  it("handles dates before the epoch", () => {
+    const beforeEpoch = answerForDate(answers, new Date("2025-12-31T12:00:00Z"));
+    expect(beforeEpoch.word).toMatch(/^[A-Z]{4,7}$/u);
+    expect(answerForDate(answers, new Date("2025-12-31T00:00:00Z")).word).toBe(
+      beforeEpoch.word,
+    );
+  });
+
+  it("is stable across repeated calls for the same day", () => {
+    const date = new Date("2026-08-03T12:00:00Z");
+    const first = answerForDate(answers, date).word;
+    for (let attempt = 0; attempt < 5; attempt += 1) {
+      expect(answerForDate(answers, date).word).toBe(first);
+    }
   });
 
   it("returns the right attempt budget and API metadata", () => {

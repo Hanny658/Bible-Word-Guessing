@@ -46,3 +46,12 @@ export type EvaluatedLetter = {
   letter: string;
   state: LetterState;
 };
+
+export type Language = "en" | "zh";
+
+export type GameStatus = "playing" | "won" | "lost";
+
+export type Progress = {
+  puzzleId: string;
+  guesses: string[];
+};
