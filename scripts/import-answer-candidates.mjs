@@ -24,6 +24,12 @@ const answers = rows.map((row) => {
   const word = row.word.trim().toUpperCase();
   const existing = existingByWord.get(word);
   const hasVerse = row.sample_verse_ref?.trim() && row.sample_verse_text?.trim();
+  const sourceVerse = hasVerse
+    ? {
+        reference: row.sample_verse_ref.trim(),
+        text: row.sample_verse_text.trim(),
+      }
+    : null;
 
   return {
     word,
@@ -31,12 +37,9 @@ const answers = rows.map((row) => {
     tier: row.tier,
     category: row.category,
     explanation: explanationFor({ ...row, word }, existing?.explanation),
-    sampleVerse: hasVerse
-      ? {
-          reference: row.sample_verse_ref.trim(),
-          text: row.sample_verse_text.trim(),
-        }
-      : null,
+    // A reviewed passage in answers.json wins over the CSV seed so that
+    // future metadata imports do not undo editorial verse choices.
+    sampleVerse: existing?.sampleVerse ?? sourceVerse,
   };
 });
 

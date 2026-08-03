@@ -22,17 +22,19 @@ Open <http://localhost:3000>. No account, database, or environment variables are
 
 The ordinary English guesses come from [`word-list`](https://github.com/sindresorhus/word-list), an MIT-licensed word list. Bible answer terms are added to that set during generation.
 
+The sample text uses the public-domain 1769 KJV wording from the [`farskipper/kjv`](https://github.com/farskipper/kjv) corpus. References and bilingual notes have been reviewed term by term; where Christian interpretations differ, the player-facing copy stays close to the passage itself and avoids denominational labels while remaining compatible with an SDA reading.
+
 ## Data maintenance
 
 ```bash
-pnpm data:import    # import working CSV, preserving existing explanations
+pnpm data:import    # import working CSV, preserving reviewed text and verses
 pnpm data:words     # regenerate the four versioned guess lists
 pnpm data:validate  # validate all answers and answer/guess-set invariants
 ```
 
-`data:import` keeps any explanation already present in `data/answers.json`, so hand-written text survives a re-import; the curated entries in `scripts/explanations.mjs` only seed words that have none yet.
+`data:import` keeps any explanation and sample passage already present in `data/answers.json`, so reviewed content survives a re-import. A newly added answer must receive bilingual editorial copy before validation; the importer no longer creates generic fallback prose.
 
-The answer count is read from the data rather than hard-coded. Set `BWD_EXPECTED_ANSWER_COUNT` to pin it in CI or production, and both `pnpm data:validate` and the server will fail if the set ever drifts from that size.
+Version `v1` is pinned to exactly 580 unique answers. Validation also rejects missing passages, duplicate explanations, old fallback wording, source-draft leakage, and answers absent from their acceptable-guess lists.
 
 When the answer data or word lists change, create a new dataset version instead of replacing files under `public/words/v1`, because v1 assets are served with immutable cache headers.
 

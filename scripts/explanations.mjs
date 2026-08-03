@@ -259,20 +259,6 @@ const SPECIAL = {
   ],
 };
 
-const categoryLabels = {
-  person: ["a person named in the Bible", "圣经中出现的人物"],
-  place: ["a place in the biblical world", "圣经世界中的地点"],
-  concept: ["a word or image used in Scripture", "圣经中使用的词语或意象"],
-  "person/place": [
-    "a biblical name used for a person, people, or place",
-    "可指人物、族群或地点的圣经名称",
-  ],
-  "name/other": [
-    "a significant biblical name or designation",
-    "具有重要意义的圣经名称或称号",
-  ],
-};
-
 export function explanationFor(row, existing) {
   // An explanation already in answers.json wins, so hand edits survive a
   // re-import. The curated SPECIAL entries only seed words not yet written.
@@ -280,20 +266,8 @@ export function explanationFor(row, existing) {
 
   const special = SPECIAL[row.word];
   if (special) return { en: special[0], zh: special[1] };
-
-  const [englishKind, chineseKind] = categoryLabels[row.category];
-  const name = titleCase(row.word);
-  const reference = row.sample_verse_ref?.trim();
-
-  if (reference) {
-    return {
-      en: `${name} is ${englishKind}, connected here with ${reference}. The cited verse is a starting point for reading the name or idea in its wider biblical context.`,
-      zh: `${name} 是${chineseKind}，这里与《${reference}》相关。所附经文可作为起点，帮助读者从更完整的圣经上下文理解这个名称或观念。`,
-    };
-  }
-
-  return {
-    en: `${name} is ${englishKind}. Its wider setting can be explored through the stories, geography, and themes of Scripture.`,
-    zh: `${name} 是${chineseKind}，可以从圣经的故事、地理与主题脉络进一步认识它的背景。`,
-  };
+  throw new Error(
+    `Missing reviewed bilingual explanation for ${titleCase(row.word)}. ` +
+      "Add it to data/answers.json before importing new answer terms.",
+  );
 }

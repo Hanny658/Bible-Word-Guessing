@@ -11,18 +11,16 @@ const expectedCategories = new Set([
   "name/other",
 ]);
 const seen = new Set();
+const seenEnglish = new Set();
+const seenChinese = new Set();
+const fallbackPattern =
+  /the cited verse|a starting point|wider (?:biblical )?(?:context|setting)|所附经文可作为起点|更完整的圣经上下文|进一步认识它的背景/iu;
+const denominationalLabelPattern =
+  /seventh-day adventist|基督复临安息日会|sda (?:teaching|doctrine|belief)/iu;
 
 if (data.version !== "v1") throw new Error("Unexpected answer data version.");
-if (!Array.isArray(data.answers) || data.answers.length === 0) {
-  throw new Error("The answer set is empty.");
-}
-
-// Optional pin: set BWD_EXPECTED_ANSWER_COUNT to fail when the size drifts.
-const expectedCount = process.env.BWD_EXPECTED_ANSWER_COUNT;
-if (expectedCount && data.answers.length !== Number(expectedCount)) {
-  throw new Error(
-    `Expected ${expectedCount} answers, received ${data.answers.length}.`,
-  );
+if (!Array.isArray(data.answers) || data.answers.length !== 580) {
+  throw new Error(`Expected exactly 580 answers, received ${data.answers?.length}.`);
 }
 
 for (const answer of data.answers) {
@@ -39,6 +37,36 @@ for (const answer of data.answers) {
   }
   if (!answer.explanation?.en?.trim() || !answer.explanation?.zh?.trim()) {
     throw new Error(`Missing bilingual explanation: ${answer.word}`);
+  }
+  if (answer.explanation.en.length < 70 || answer.explanation.zh.length < 35) {
+    throw new Error(`Explanation is too brief to be useful: ${answer.word}`);
+  }
+  if (fallbackPattern.test(`${answer.explanation.en} ${answer.explanation.zh}`)) {
+    throw new Error(`Fallback or generic explanation remains: ${answer.word}`);
+  }
+  if (
+    denominationalLabelPattern.test(
+      `${answer.explanation.en} ${answer.explanation.zh}`,
+    )
+  ) {
+    throw new Error(`Denominational label leaked into player copy: ${answer.word}`);
+  }
+  if (seenEnglish.has(answer.explanation.en)) {
+    throw new Error(`Duplicate English explanation: ${answer.word}`);
+  }
+  if (seenChinese.has(answer.explanation.zh)) {
+    throw new Error(`Duplicate Chinese explanation: ${answer.word}`);
+  }
+  seenEnglish.add(answer.explanation.en);
+  seenChinese.add(answer.explanation.zh);
+  if (
+    !answer.sampleVerse?.reference?.trim() ||
+    !answer.sampleVerse?.text?.trim()
+  ) {
+    throw new Error(`Missing reviewed sample verse: ${answer.word}`);
+  }
+  if (/^#\s|\[[^\]]+\]/u.test(answer.sampleVerse.text)) {
+    throw new Error(`Unclean KJV source markers in ${answer.word}.`);
   }
   if (JSON.stringify(answer).includes("easton_draft")) {
     throw new Error(`Easton draft leaked into ${answer.word}.`);
