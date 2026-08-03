@@ -39,7 +39,7 @@
         "zh": "君王治理百姓，也为所治理的人承担责任；圣经则宣告上帝是至高的统治者。诗篇47:7称上帝为全地的王，并呼召人以悟性歌颂祂。"
       },
       "sampleVerse": {
-        "reference": "Psalms 47:7",
+        "reference": "Psalm 47:7",
         "text": "For God is the King of all the earth: sing ye praises with understanding."
       }
     },
@@ -95,7 +95,7 @@
         "zh": "在圣经语言中，手常代表人的行为、能力或责任。诗篇24:4把清洁的手与清洁的心并列，说明外在行为与内在品格不可分割。"
       },
       "sampleVerse": {
-        "reference": "Psalms 24:4",
+        "reference": "Psalm 24:4",
         "text": "He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully."
       }
     },
@@ -133,12 +133,12 @@
       "tier": "A",
       "category": "concept",
       "explanation": {
-        "en": "Earth may mean the ground, the inhabited world, or the whole created realm in contrast with heaven. Genesis 1:1 begins the biblical story by declaring that God created both heaven and earth.",
-        "zh": "Earth 可指土地、人所居住的世界，或与天相对的整个受造领域。创世记1:1以宣告上帝创造天地，开启了整部圣经的叙事。"
+        "en": "Earth may mean the ground, the inhabited world, or the whole created realm in contrast with heaven. Psalm 24:1 declares the earth and everything in it to belong to the LORD, grounding human life in his ownership.",
+        "zh": "Earth 可指土地、人所居住的世界，或与天相对的整个受造领域。诗篇24:1宣告地和其中所充满的都属于耶和华，把人的生活立在祂的主权之下。"
       },
       "sampleVerse": {
-        "reference": "Genesis 1:1",
-        "text": "In the beginning God created the heaven and the earth."
+        "reference": "Psalm 24:1",
+        "text": "The earth is the LORD'S, and the fulness thereof; the world, and they that dwell therein."
       }
     },
     {
@@ -287,7 +287,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Babylon was the Mesopotamian empire that conquered Judah, destroyed Jerusalem, and carried many people into exile. Second Kings 25:9 records its forces burning the temple and major buildings, a defining catastrophe in Judah's history.",
+        "en": "Babylon was the Mesopotamian empire that conquered Judah, destroyed Jerusalem, and carried many people into exile. 2 Kings 25:9 records its forces burning the temple and major buildings, a defining catastrophe in Judah's history.",
         "zh": "巴比伦是征服犹大、毁坏耶路撒冷并掳走许多百姓的美索不达米亚帝国。列王纪下25:9记载巴比伦军焚烧圣殿和城中重要建筑，成为犹大历史上的重大灾难。"
       },
       "sampleVerse": {
@@ -511,12 +511,12 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Jacob was the younger son of Isaac and Rebekah and the father of the twelve tribal ancestors of Israel. Genesis 32:28 records his renaming as Israel after a night of wrestling, marking a turning point in his life.",
-        "zh": "雅各是以撒和利百加的小儿子，也是以色列十二支派先祖的父亲。创世记32:28记载他经过一夜摔跤后被改名为以色列，成为人生的重要转折。"
+        "en": "Jacob was the younger son of Isaac and Rebekah and the father of the twelve tribal ancestors of Israel. Genesis 25:26 records his birth grasping Esau's heel, the moment that gave him a name marked by struggle.",
+        "zh": "雅各是以撒和利百加的小儿子，也是以色列十二支派先祖的父亲。创世记25:26记载他出生时抓住以扫的脚跟，这一刻也给了他一个带着争夺意味的名字。"
       },
       "sampleVerse": {
-        "reference": "Genesis 32:28",
-        "text": "And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed."
+        "reference": "Genesis 25:26",
+        "text": "And after that came his brother out, and his hand took hold on Esau's heel; and his name was called Jacob: and Isaac was threescore years old when she bare them."
       }
     },
     {
@@ -665,12 +665,12 @@
       "tier": "A",
       "category": "concept",
       "explanation": {
-        "en": "Silver served as precious metal, sanctuary material, and a measured medium of payment before coined money. Genesis 23:16 records Abraham weighing silver to Ephron to purchase the burial field at Machpelah.",
-        "zh": "银既是贵金属和圣所材料，也在铸币出现前按重量用作付款媒介。创世记23:16记载亚伯拉罕称银子给以弗仑，买下麦比拉的坟地。"
+        "en": "Silver served as precious metal, sanctuary material, and a measured medium of payment before coined money. Psalm 12:6 compares the LORD's words to silver refined seven times in a furnace, an image of tested purity.",
+        "zh": "银既是贵金属和圣所材料，也在铸币出现前按重量用作付款媒介。诗篇12:6把耶和华的言语比作在炉中炼过七次的银子，象征经过试验的纯净。"
       },
       "sampleVerse": {
-        "reference": "Genesis 23:16",
-        "text": "And Abraham hearkened unto Ephron; and Abraham weighed to Ephron the silver, which he had named in the audience of the sons of Heth, four hundred shekels of silver, current money with the merchant."
+        "reference": "Psalm 12:6",
+        "text": "The words of the LORD are pure words: as silver tried in a furnace of earth, purified seven times."
       }
     },
     {
@@ -705,7 +705,7 @@
       "word": "FIELD",
       "length": 5,
       "tier": "A",
-      "category": "place",
+      "category": "concept",
       "explanation": {
         "en": "A field is open land used for crops or grazing and often becomes the setting of biblical parables. In Matthew 13:38 Jesus explains that the field in the parable of the wheat and tares represents the world.",
         "zh": "田地是用于耕种或放牧的开阔土地，也常成为圣经比喻的场景。马太福音13:38中，耶稣解释麦子与稗子比喻里的田地代表世界。"
@@ -721,7 +721,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Zion first named the Jebusite stronghold in Jerusalem and later represented the holy city and God's reign among his people. Second Samuel 5:7 records David capturing the stronghold and making it the city of David.",
+        "en": "Zion first named the Jebusite stronghold in Jerusalem and later represented the holy city and God's reign among his people. 2 Samuel 5:7 records David capturing the stronghold and making it the city of David.",
         "zh": "锡安起初指耶路撒冷的耶布斯堡垒，后来代表圣城和上帝在百姓中的统治。撒母耳记下5:7记载大卫攻取这座保障，使它成为大卫城。"
       },
       "sampleVerse": {
@@ -791,12 +791,12 @@
       "tier": "A",
       "category": "concept",
       "explanation": {
-        "en": "Light is a biblical image of creation, truth, holiness, guidance, and God's life-giving presence. John 1:4 says the life in the Word was humanity's light, joining spiritual illumination directly to Christ.",
-        "zh": "光在圣经中象征创造、真理、圣洁、引导，以及上帝赐生命的同在。约翰福音1:4说“道”里面的生命就是人的光，把属灵光照直接连于基督。"
+        "en": "Light is a biblical image of creation, truth, holiness, guidance, and God's life-giving presence. Genesis 1:3 records God's first creative word calling light into being out of darkness.",
+        "zh": "光在圣经中象征创造、真理、圣洁、引导，以及上帝赐生命的同在。创世记1:3记载上帝创造时所说的第一句话，使光从黑暗中出现。"
       },
       "sampleVerse": {
-        "reference": "John 1:4",
-        "text": "In him was life; and the life was the light of men."
+        "reference": "Genesis 1:3",
+        "text": "And God said, Let there be light: and there was light."
       }
     },
     {
@@ -819,7 +819,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Joab, David's nephew through Zeruiah, commanded David's army and was both effective and ruthlessly violent. Second Samuel 8:16 names him over the host during David's reign, identifying the authority behind many later military and political actions.",
+        "en": "Joab, David's nephew through Zeruiah, commanded David's army and was both effective and ruthlessly violent. 2 Samuel 8:16 names him over the host during David's reign, identifying the authority behind many later military and political actions.",
         "zh": "约押是大卫姐姐洗鲁雅的儿子，统领大卫军队；他办事有力，却也屡次残酷行事。撒母耳记下8:16称他为元帅，说明他在后来许多军事和政治事件中拥有的权力。"
       },
       "sampleVerse": {
@@ -847,12 +847,12 @@
       "tier": "A",
       "category": "concept",
       "explanation": {
-        "en": "Mount is an older or formal word for a mountain and frequently forms part of biblical place names. Exodus 19:20 records the LORD descending upon Mount Sinai and calling Moses upward, making the mountain the setting for Israel's covenant.",
-        "zh": "Mount 是“山”的古典或正式说法，也常出现在圣经地名中。出埃及记19:20记载耶和华降临西奈山并召摩西上山，使这座山成为以色列立约的场所。"
+        "en": "Mount is an older or formal word for a mountain and frequently forms part of biblical place names. Acts 1:12 names the mount called Olivet as the place from which the disciples returned to Jerusalem after Jesus ascended.",
+        "zh": "Mount 是“山”的古典或正式说法，也常出现在圣经地名中。使徒行传1:12提到名叫橄榄山的地方，门徒在耶稣升天后从那里回到耶路撒冷。"
       },
       "sampleVerse": {
-        "reference": "Exodus 19:20",
-        "text": "And the LORD came down upon mount Sinai, on the top of the mount: and the LORD called Moses up to the top of the mount; and Moses went up."
+        "reference": "Acts 1:12",
+        "text": "Then returned they unto Jerusalem from the mount called Olivet, which is from Jerusalem a sabbath day's journey."
       }
     },
     {
@@ -945,12 +945,12 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Samaria was the hill-city Omri built as the capital of the northern kingdom of Israel and later the name of its surrounding region. First Kings 16:24 records Omri purchasing the hill from Shemer and naming the new city after him.",
-        "zh": "撒玛利亚是暗利建造、作为北国以色列首都的山城，后来也指其周围地区。列王纪上16:24记载暗利从示玛买下山地，并以原主之名为新城命名。"
+        "en": "Samaria was the hill-city Omri built as the capital of the northern kingdom of Israel and later the name of its surrounding region. Acts 8:5 records Philip preaching Christ in a city of Samaria, carrying the gospel beyond Jerusalem.",
+        "zh": "撒玛利亚是暗利建造、作为北国以色列首都的山城，后来也指其周围地区。使徒行传8:5记载腓利在撒玛利亚的城里传讲基督，使福音越过耶路撒冷向外扩展。"
       },
       "sampleVerse": {
-        "reference": "1 Kings 16:24",
-        "text": "And he bought the hill Samaria of Shemer for two talents of silver, and built on the hill, and called the name of the city which he built, after the name of Shemer, owner of the hill, Samaria."
+        "reference": "Acts 8:5",
+        "text": "Then Philip went down to the city of Samaria, and preached Christ unto them."
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Assyria was the powerful northern Mesopotamian empire that conquered the kingdom of Israel. Second Kings 18:11 records the Assyrian king deporting Israelites, marking the end of the northern kingdom and the beginning of exile.",
+        "en": "Assyria was the powerful northern Mesopotamian empire that conquered the kingdom of Israel. 2 Kings 18:11 records the Assyrian king deporting Israelites, marking the end of the northern kingdom and the beginning of exile.",
         "zh": "亚述是美索不达米亚北部的强大帝国，曾征服以色列北国。列王纪下18:11记载亚述王掳走以色列人，标志北国灭亡和被掳生活的开始。"
       },
       "sampleVerse": {
@@ -1085,7 +1085,7 @@
       "tier": "A",
       "category": "concept",
       "explanation": {
-        "en": "The temple in Jerusalem became Israel's central house of worship and sacrifice, replacing the portable tabernacle. First Kings 6:1 dates the beginning of Solomon's construction, connecting the sanctuary with Israel's deliverance from Egypt.",
+        "en": "The temple in Jerusalem became Israel's central house of worship and sacrifice, replacing the portable tabernacle. 1 Kings 6:1 dates the beginning of Solomon's construction, connecting the sanctuary with Israel's deliverance from Egypt.",
         "zh": "耶路撒冷圣殿取代可移动的会幕，成为以色列敬拜和献祭的中心。列王纪上6:1记下所罗门开工的时间，并把圣所的建造与以色列出埃及的拯救相连。"
       },
       "sampleVerse": {
@@ -1113,7 +1113,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Absalom was David's handsome and ambitious son who avenged his sister Tamar and later rebelled against his father. Second Samuel 15:10 records his secret signal proclaiming himself king, turning family conflict into civil war.",
+        "en": "Absalom was David's handsome and ambitious son who avenged his sister Tamar and later rebelled against his father. 2 Samuel 15:10 records his secret signal proclaiming himself king, turning family conflict into civil war.",
         "zh": "押沙龙是大卫俊美而有野心的儿子；他为妹妹她玛报仇，后来又背叛父亲。撒母耳记下15:10记载他暗中发出自立为王的信号，使家庭冲突演变为内战。"
       },
       "sampleVerse": {
@@ -1155,7 +1155,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Ahab son of Omri was king of northern Israel and, under Jezebel's influence, promoted Baal worship. First Kings 16:30 judges him as doing more evil than the kings before him, preparing for Elijah's confrontation with his rule.",
+        "en": "Ahab son of Omri was king of northern Israel and, under Jezebel's influence, promoted Baal worship. 1 Kings 16:30 judges him as doing more evil than the kings before him, preparing for Elijah's confrontation with his rule.",
         "zh": "暗利的儿子亚哈是北国以色列王，在耶洗别影响下推动巴力崇拜。列王纪上16:30评价他行恶超过从前诸王，为以利亚后来与其政权对抗作了铺垫。"
       },
       "sampleVerse": {
@@ -1267,7 +1267,7 @@
       "tier": "A",
       "category": "person/place",
       "explanation": {
-        "en": "Hebron was an ancient hill-country city associated with Abraham's family tomb and later David's first capital. Second Samuel 5:3 records Israel's elders anointing David king there before he moved his rule to Jerusalem.",
+        "en": "Hebron was an ancient hill-country city associated with Abraham's family tomb and later David's first capital. 2 Samuel 5:3 records Israel's elders anointing David king there before he moved his rule to Jerusalem.",
         "zh": "希伯仑是古老的山地城，与亚伯拉罕家族的坟地有关，后来也成为大卫最初的首都。撒母耳记下5:3记载以色列长老在那里膏大卫作王，之后他才迁都耶路撒冷。"
       },
       "sampleVerse": {
@@ -1281,7 +1281,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Lebanon is the mountain region north of Israel famed in Scripture for tall and durable cedar trees. First Kings 5:6 records Solomon requesting Lebanese cedar and Sidonian craftsmen for construction of the temple.",
+        "en": "Lebanon is the mountain region north of Israel famed in Scripture for tall and durable cedar trees. 1 Kings 5:6 records Solomon requesting Lebanese cedar and Sidonian craftsmen for construction of the temple.",
         "zh": "黎巴嫩是以色列北方的山地，在圣经中以高大耐用的香柏树闻名。列王纪上5:6记载所罗门请求取得黎巴嫩香柏木，并请西顿工匠协助建造圣殿。"
       },
       "sampleVerse": {
@@ -1323,7 +1323,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Abner son of Ner was Saul's cousin and commander of Israel's army, later supporting Saul's son Ish-bosheth against David. First Samuel 14:50 identifies both his family connection and military office at the beginning of Saul's reign.",
+        "en": "Abner son of Ner was Saul's cousin and commander of Israel's army, later supporting Saul's son Ish-bosheth against David. 1 Samuel 14:50 identifies both his family connection and military office at the beginning of Saul's reign.",
         "zh": "尼珥的儿子押尼珥是扫罗的堂兄弟和以色列元帅，后来支持扫罗之子伊施波设与大卫对立。撒母耳记上14:50在扫罗统治早期便说明他的亲属关系和军职。"
       },
       "sampleVerse": {
@@ -1351,12 +1351,12 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Bashan was a fertile plateau east of the Jordan ruled by King Og when Israel approached Canaan. Numbers 21:33 records Og marching out against Israel at Edrei, leading to his defeat and Israel's possession of the region.",
-        "zh": "巴珊是约旦河东肥沃的高原；以色列接近迦南时，由噩王统治。民数记21:33记载噩王在以得来出战以色列，结果战败，那地也被以色列取得。"
+        "en": "Bashan was a fertile plateau east of the Jordan ruled by King Og when Israel approached Canaan. Psalm 22:12 pictures its strong bulls surrounding the sufferer, drawing on the region's reputation for well-fed livestock.",
+        "zh": "巴珊是约旦河东肥沃的高原；以色列接近迦南时，由噩王统治。诗篇22:12以巴珊壮牛围困受苦者的画面，借用当地牲畜肥壮的名声。"
       },
       "sampleVerse": {
-        "reference": "Numbers 21:33",
-        "text": "And they turned and went up by the way of Bashan: and Og the king of Bashan went out against them, he, and all his people, to the battle at Edrei."
+        "reference": "Psalm 22:12",
+        "text": "Many bulls have compassed me: strong bulls of Bashan have beset me round."
       }
     },
     {
@@ -1365,7 +1365,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Elisha was Elijah's disciple and prophetic successor, serving especially in the northern kingdom. Second Kings 2:15 records the prophetic community recognizing that Elijah's spirit now rested on Elisha after Elijah was taken away.",
+        "en": "Elisha was Elijah's disciple and prophetic successor, serving especially in the northern kingdom. 2 Kings 2:15 records the prophetic community recognizing that Elijah's spirit now rested on Elisha after Elijah was taken away.",
         "zh": "以利沙是以利亚的门徒和先知职分继承者，主要在北国事奉。列王纪下2:15记载以利亚被接去后，先知门徒认出以利亚的灵已经临到以利沙身上。"
       },
       "sampleVerse": {
@@ -1393,7 +1393,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Jehu son of Jehoshaphat was a military commander anointed to replace Ahab's dynasty as king of Israel. Second Kings 9:6 records his secret anointing and commission to rule, beginning his violent purge of Ahab's house and Baal worship.",
+        "en": "Jehu son of Jehoshaphat was a military commander anointed to replace Ahab's dynasty as king of Israel. 2 Kings 9:6 records his secret anointing and commission to rule, beginning his violent purge of Ahab's house and Baal worship.",
         "zh": "约沙法的儿子耶户原是将领，受膏取代亚哈王朝作以色列王。列王纪下9:6记载他秘密受膏并领受王权，由此开始以暴力清除亚哈家和巴力崇拜。"
       },
       "sampleVerse": {
@@ -1435,7 +1435,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Josiah became king of Judah as a child and later led a major reform against idolatry. Second Kings 22:11 says he tore his clothes when the neglected book of the law was read, showing repentance before he acted to renew the covenant.",
+        "en": "Josiah became king of Judah as a child and later led a major reform against idolatry. 2 Kings 22:11 says he tore his clothes when the neglected book of the law was read, showing repentance before he acted to renew the covenant.",
         "zh": "约西亚幼年登基作犹大王，后来领导大规模改革，清除偶像崇拜。列王纪下22:11说他听见久被忽略的律法书便撕裂衣服，显出他在更新盟约行动之前先有悔改。"
       },
       "sampleVerse": {
@@ -1505,7 +1505,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Zadok was a priest loyal to David who later served as high priest under Solomon. First Kings 1:39 records him anointing Solomon king at Gihon, helping secure the intended succession against Adonijah's rival claim.",
+        "en": "Zadok was a priest loyal to David who later served as high priest under Solomon. 1 Kings 1:39 records him anointing Solomon king at Gihon, helping secure the intended succession against Adonijah's rival claim.",
         "zh": "撒督是忠于大卫的祭司，后来在所罗门统治下担任大祭司。列王纪上1:39记载他在基训膏所罗门作王，帮助确立王位继承，挫败亚多尼雅的竞争。"
       },
       "sampleVerse": {
@@ -1533,7 +1533,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Jesse was a Bethlehemite, the grandson of Ruth and Boaz, and the father of David. First Samuel 16:1 sends Samuel to Jesse's household to anoint one of his sons, introducing the family from which Israel's royal line would grow.",
+        "en": "Jesse was a Bethlehemite, the grandson of Ruth and Boaz, and the father of David. 1 Samuel 16:1 sends Samuel to Jesse's household to anoint one of his sons, introducing the family from which Israel's royal line would grow.",
         "zh": "耶西是伯利恒人、路得和波阿斯的孙子，也是大卫的父亲。撒母耳记上16:1差撒母耳到耶西家中膏立他的一个儿子，由此引出以色列王族的家庭。"
       },
       "sampleVerse": {
@@ -1743,7 +1743,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Amaziah son of Joash was king of Judah, remembered for both obedience and damaging pride after military success. Second Chronicles 25:2 says he did what was right, but not with a perfect heart, summarizing the divided character of his reign.",
+        "en": "Amaziah son of Joash was king of Judah, remembered for both obedience and damaging pride after military success. 2 Chronicles 25:2 says he did what was right, but not with a perfect heart, summarizing the divided character of his reign.",
         "zh": "约阿施的儿子亚玛谢作犹大王；他既有顺服的一面，也在军事成功后因骄傲而受损。历代志下25:2说他行耶和华眼中看为正的事，却不是专心而行，概括了他统治中的矛盾。"
       },
       "sampleVerse": {
@@ -1771,7 +1771,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Joash was preserved from Athaliah's massacre, crowned as a child, and became king of Judah under the guidance of Jehoiada the priest. Second Kings 12:2 says he did right while Jehoiada instructed him, highlighting both the reform and its dependence on wise counsel.",
+        "en": "Joash was preserved from Athaliah's massacre, crowned as a child, and became king of Judah under the guidance of Jehoiada the priest. 2 Kings 12:2 says he did right while Jehoiada instructed him, highlighting both the reform and its dependence on wise counsel.",
         "zh": "约阿施在亚他利雅的屠杀中被保存，幼年加冕，并在祭司耶何耶大的指导下作犹大王。列王纪下12:2说耶何耶大教导他期间，他行耶和华眼中看为正的事，既显出改革，也显出良好劝导的重要。"
       },
       "sampleVerse": {
@@ -1855,7 +1855,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Benaiah son of Jehoiada was one of David's mighty men, commander of his bodyguard, and a loyal supporter of Solomon. First Kings 2:35 records Solomon placing him over the army, completing his rise to Israel's chief military office.",
+        "en": "Benaiah son of Jehoiada was one of David's mighty men, commander of his bodyguard, and a loyal supporter of Solomon. 1 Kings 2:35 records Solomon placing him over the army, completing his rise to Israel's chief military office.",
         "zh": "耶何耶大的儿子比拿雅是大卫的勇士和护卫长，也是所罗门忠诚的支持者。列王纪上2:35记载所罗门立他统领军队，使他升任以色列最高军职。"
       },
       "sampleVerse": {
@@ -1869,12 +1869,12 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Gath was one of the five chief Philistine cities and the hometown of the giant Goliath. First Samuel 17:4 introduces Goliath of Gath challenging Israel, setting the scene for David's victory.",
-        "zh": "迦特是非利士五座主要城市之一，也是巨人歌利亚的家乡。撒母耳记上17:4介绍来自迦特的歌利亚向以色列挑战，由此展开大卫得胜的故事。"
+        "en": "Gath was one of the five chief Philistine cities and the hometown of the giant Goliath. 2 Samuel 1:20 has David lament that news of Saul's death must not be told in Gath, where enemies would rejoice.",
+        "zh": "迦特是非利士五座主要城市之一，也是巨人歌利亚的家乡。撒母耳记下1:20记载大卫作哀歌，嘱咐不可在迦特报告扫罗阵亡的消息，免得仇敌欢喜。"
       },
       "sampleVerse": {
-        "reference": "1 Samuel 17:4",
-        "text": "And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, whose height was six cubits and a span."
+        "reference": "2 Samuel 1:20",
+        "text": "Tell it not in Gath, publish it not in the streets of Askelon; lest the daughters of the Philistines rejoice, lest the daughters of the uncircumcised triumph."
       }
     },
     {
@@ -1883,7 +1883,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Ahaziah son of Ahab briefly ruled northern Israel and continued his parents' idolatrous pattern. Second Kings 1:2 records him seeking an oracle from Baal-zebub after a serious fall, provoking Elijah's message of judgment.",
+        "en": "Ahaziah son of Ahab briefly ruled northern Israel and continued his parents' idolatrous pattern. 2 Kings 1:2 records him seeking an oracle from Baal-zebub after a serious fall, provoking Elijah's message of judgment.",
         "zh": "亚哈的儿子亚哈谢短暂统治北国以色列，并延续父母偶像崇拜的道路。列王纪下1:2记载他坠楼重伤后求问巴力西卜，因此招来以利亚的审判信息。"
       },
       "sampleVerse": {
@@ -1939,7 +1939,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Uzziah was a long-reigning king of Judah whose strength and achievements gave way to pride. Second Chronicles 26:16 records him unlawfully entering the temple to burn incense, an act followed by leprosy and isolation.",
+        "en": "Uzziah was a long-reigning king of Judah whose strength and achievements gave way to pride. 2 Chronicles 26:16 records him unlawfully entering the temple to burn incense, an act followed by leprosy and isolation.",
         "zh": "乌西雅是长期统治犹大的君王；他的力量和成就后来转变为骄傲。历代志下26:16记载他擅入圣殿烧香，随后患上大麻风并被隔离。"
       },
       "sampleVerse": {
@@ -1967,7 +1967,7 @@
       "tier": "A",
       "category": "person/place",
       "explanation": {
-        "en": "Jezreel was a town and fertile valley where Israel's kings maintained a residence and where Naboth owned a vineyard. First Kings 21:1 introduces that vineyard beside Ahab's palace, setting up the royal abuse that Elijah condemned.",
+        "en": "Jezreel was a town and fertile valley where Israel's kings maintained a residence and where Naboth owned a vineyard. 1 Kings 21:1 introduces that vineyard beside Ahab's palace, setting up the royal abuse that Elijah condemned.",
         "zh": "耶斯列是一座城及其肥沃谷地，以色列诸王在那里有行宫，拿伯也在那里拥有葡萄园。列王纪上21:1介绍亚哈王宫旁的葡萄园，由此展开以利亚所谴责的王权滥用。"
       },
       "sampleVerse": {
@@ -2009,7 +2009,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Baasha of Issachar seized Israel's throne by assassinating Nadab and founded the northern kingdom's second dynasty. First Kings 15:27 records his conspiracy and attack at Gibbethon, beginning a reign that repeated Jeroboam's sins.",
+        "en": "Baasha of Issachar seized Israel's throne by assassinating Nadab and founded the northern kingdom's second dynasty. 1 Kings 15:27 records his conspiracy and attack at Gibbethon, beginning a reign that repeated Jeroboam's sins.",
         "zh": "以萨迦人巴沙刺杀拿答夺取以色列王位，建立北国第二个王朝。列王纪上15:27记载他在基比顿发动叛变和袭击，由此开始一个继续耶罗波安罪行的统治。"
       },
       "sampleVerse": {
@@ -2023,7 +2023,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Hilkiah was the high priest during Josiah's reign who discovered the neglected book of the law in the temple. Second Kings 22:8 records him giving the book to Shaphan, an event that triggered repentance and national reform.",
+        "en": "Hilkiah was the high priest during Josiah's reign who discovered the neglected book of the law in the temple. 2 Kings 22:8 records him giving the book to Shaphan, an event that triggered repentance and national reform.",
         "zh": "希勒家是约西亚时代的大祭司，他在圣殿中发现了被遗忘的律法书。列王纪下22:8记载他把书交给沙番；这件事引发了悔改和全国改革。"
       },
       "sampleVerse": {
@@ -2065,7 +2065,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Shaphan was King Josiah's secretary and belonged to a family that later protected faithful prophets. Second Kings 22:10 records him reading the rediscovered book of the law to the king, carrying its message from temple to throne.",
+        "en": "Shaphan was King Josiah's secretary and belonged to a family that later protected faithful prophets. 2 Kings 22:10 records him reading the rediscovered book of the law to the king, carrying its message from temple to throne.",
         "zh": "沙番是约西亚王的书记，出自后来保护忠心先知的家族。列王纪下22:10记载他把重新发现的律法书读给王听，使圣殿中发现的信息传到王宫。"
       },
       "sampleVerse": {
@@ -2079,7 +2079,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Zeruiah was David's sister and the mother of his prominent warriors Abishai, Joab, and Asahel. First Chronicles 2:16 preserves this family link, explaining why her sons stood so near David's military and political life.",
+        "en": "Zeruiah was David's sister and the mother of his prominent warriors Abishai, Joab, and Asahel. 1 Chronicles 2:16 preserves this family link, explaining why her sons stood so near David's military and political life.",
         "zh": "洗鲁雅是大卫的姐姐，也是勇士亚比筛、约押和亚撒黑的母亲。历代志上2:16保存了这层亲属关系，说明她的儿子为何在大卫的军事和政治生活中如此重要。"
       },
       "sampleVerse": {
@@ -2107,7 +2107,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Uriah the Hittite was Bathsheba's husband and one of David's soldiers, wronged through the king's adultery and lethal scheme. Second Samuel 11:11 shows his integrity as he refuses comfort while the ark and fellow troops remain in the field.",
+        "en": "Uriah the Hittite was Bathsheba's husband and one of David's soldiers, wronged through the king's adultery and lethal scheme. 2 Samuel 11:11 shows his integrity as he refuses comfort while the ark and fellow troops remain in the field.",
         "zh": "赫人乌利亚是拔示巴的丈夫和大卫的士兵，却遭王以通奸和杀人阴谋严重亏负。撒母耳记下11:11显出他的忠诚：约柜和同袍仍在战场时，他拒绝回家享受安逸。"
       },
       "sampleVerse": {
@@ -2135,7 +2135,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Amnon was David's eldest son, whose lust led him to rape his half-sister Tamar and bring disaster into the royal family. Second Samuel 13:14 states that he overpowered her despite her resistance, naming his act as violence rather than romance.",
+        "en": "Amnon was David's eldest son, whose lust led him to rape his half-sister Tamar and bring disaster into the royal family. 2 Samuel 13:14 states that he overpowered her despite her resistance, naming his act as violence rather than romance.",
         "zh": "暗嫩是大卫的长子；他的私欲使他强暴同父异母的妹妹她玛，并给王室带来灾难。撒母耳记下13:14说他不顾她的反抗，以强力制服她，明确显出这不是爱情，而是暴力。"
       },
       "sampleVerse": {
@@ -2163,7 +2163,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Mount Carmel is the coastal ridge where Elijah confronted the prophets supported by Ahab and Jezebel. First Kings 18:20 records Israel and Baal's prophets gathering there for the contest that would reveal whom the people should worship.",
+        "en": "Mount Carmel is the coastal ridge where Elijah confronted the prophets supported by Ahab and Jezebel. 1 Kings 18:20 records Israel and Baal's prophets gathering there for the contest that would reveal whom the people should worship.",
         "zh": "迦密山是靠海的山脉，以利亚在那里对抗亚哈和耶洗别所支持的先知。列王纪上18:20记载以色列人和巴力先知聚集于此，要借一场较量显明百姓应当敬拜谁。"
       },
       "sampleVerse": {
@@ -2205,7 +2205,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Hiram was king of Tyre and a friendly ally of both David and Solomon who supplied materials and craftsmen. First Kings 5:1 records him sending servants to Solomon after hearing of his accession, opening cooperation for the temple project.",
+        "en": "Hiram was king of Tyre and a friendly ally of both David and Solomon who supplied materials and craftsmen. 1 Kings 5:1 records him sending servants to Solomon after hearing of his accession, opening cooperation for the temple project.",
         "zh": "希兰是推罗王，也是大卫和所罗门的友好盟友，曾供应材料与工匠。列王纪上5:1记载他听见所罗门登基便差遣臣仆前来，由此展开圣殿工程的合作。"
       },
       "sampleVerse": {
@@ -2219,7 +2219,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Lachish was a fortified city southwest of Jerusalem and a key defense point for Judah. Second Kings 18:14 places the Assyrian king there during his invasion, when Hezekiah attempted to buy relief from the siege.",
+        "en": "Lachish was a fortified city southwest of Jerusalem and a key defense point for Judah. 2 Kings 18:14 places the Assyrian king there during his invasion, when Hezekiah attempted to buy relief from the siege.",
         "zh": "拉吉是耶路撒冷西南的坚城，也是犹大的重要防线。列王纪下18:14记载亚述王入侵时驻在拉吉，希西家曾试图以贡物换取解围。"
       },
       "sampleVerse": {
@@ -2261,7 +2261,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Hazael was a Syrian officer who murdered Ben-hadad and became king, later oppressing Israel as Elisha had foreseen. Second Kings 8:15 records him suffocating the sick king and taking the throne, exposing the violence behind his rise.",
+        "en": "Hazael was a Syrian officer who murdered Ben-hadad and became king, later oppressing Israel as Elisha had foreseen. 2 Kings 8:15 records him suffocating the sick king and taking the throne, exposing the violence behind his rise.",
         "zh": "哈薛原是叙利亚官员，他杀死便哈达夺取王位，后来按以利沙预见的那样压迫以色列。列王纪下8:15记载他使病中的王窒息而死并篡位，显出其崛起背后的暴力。"
       },
       "sampleVerse": {
@@ -2275,7 +2275,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Jotham son of Uzziah was king of Judah and strengthened the kingdom while avoiding his father's temple presumption. Second Chronicles 27:2 says he did right before the LORD, though the people still acted corruptly.",
+        "en": "Jotham son of Uzziah was king of Judah and strengthened the kingdom while avoiding his father's temple presumption. 2 Chronicles 27:2 says he did right before the LORD, though the people still acted corruptly.",
         "zh": "乌西雅的儿子约坦作犹大王，坚固国家，也避免重犯父亲擅入圣殿的罪。历代志下27:2说他行耶和华眼中看为正的事，但百姓仍然败坏。"
       },
       "sampleVerse": {
@@ -2289,7 +2289,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Sidon was an ancient Phoenician coastal city north of Tyre and a center of maritime trade. First Kings 17:9 sends Elijah into Sidonian territory to a widow at Zarephath, where God sustains both prophet and foreign household during famine.",
+        "en": "Sidon was an ancient Phoenician coastal city north of Tyre and a center of maritime trade. 1 Kings 17:9 sends Elijah into Sidonian territory to a widow at Zarephath, where God sustains both prophet and foreign household during famine.",
         "zh": "西顿是推罗北方古老的腓尼基海港，也是海上贸易中心。列王纪上17:9差以利亚进入西顿境内的撒勒法，到一位寡妇那里；饥荒中，上帝在那里供应先知和外族家庭。"
       },
       "sampleVerse": {
@@ -2317,7 +2317,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Jezebel was the Sidonian princess who married Ahab and used royal power to promote Baal worship and persecute the LORD's prophets. First Kings 16:31 links Ahab's marriage to her with his deliberate service of Baal.",
+        "en": "Jezebel was the Sidonian princess who married Ahab and used royal power to promote Baal worship and persecute the LORD's prophets. 1 Kings 16:31 links Ahab's marriage to her with his deliberate service of Baal.",
         "zh": "耶洗别是嫁给亚哈的西顿公主，她利用王权推动巴力崇拜并迫害耶和华的先知。列王纪上16:31把亚哈娶她与他主动事奉巴力直接相连。"
       },
       "sampleVerse": {
@@ -2331,7 +2331,7 @@
       "tier": "A",
       "category": "place",
       "explanation": {
-        "en": "Ekron was the northernmost of the five principal Philistine cities. First Samuel 5:10 records the captured ark being sent there, where the terrified inhabitants protested after judgment had already struck Ashdod and Gath.",
+        "en": "Ekron was the northernmost of the five principal Philistine cities. 1 Samuel 5:10 records the captured ark being sent there, where the terrified inhabitants protested after judgment had already struck Ashdod and Gath.",
         "zh": "以革伦是非利士五座主要城市中最北的一座。撒母耳记上5:10记载被掳的约柜送到那里；在亚实突和迦特已遭灾后，居民因恐惧而抗议。"
       },
       "sampleVerse": {
@@ -2345,7 +2345,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Achish was the Philistine king of Gath who twice received David while he fled from Saul. First Samuel 27:2 records David and six hundred men seeking refuge with him, beginning a morally complex period in Philistine territory.",
+        "en": "Achish was the Philistine king of Gath who twice received David while he fled from Saul. 1 Samuel 27:2 records David and six hundred men seeking refuge with him, beginning a morally complex period in Philistine territory.",
         "zh": "亚吉是非利士迦特王，大卫逃避扫罗时两次投奔他。撒母耳记上27:2记载大卫带六百人寻求他的庇护，由此开始一段在非利士地处境复杂的时期。"
       },
       "sampleVerse": {
@@ -2359,12 +2359,12 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Ithamar was Aaron's youngest son and one of the surviving priests after Nadab and Abihu died. Exodus 28:1 names him among Aaron's sons set apart for priestly service, from whose line later priests also descended.",
-        "zh": "以他玛是亚伦最小的儿子，也是拿答、亚比户死后仍存的祭司之一。出埃及记28:1把他列在分别出来担任祭司的亚伦众子中，后来也有祭司出自他的谱系。"
+        "en": "Ithamar was Aaron's youngest son and one of the surviving priests after Nadab and Abihu died. Exodus 38:21 places the tabernacle accounts under his hand, showing him entrusted with administering the sanctuary's Levitical service.",
+        "zh": "以他玛是亚伦最小的儿子，也是拿答、亚比户死后仍存的祭司之一。出埃及记38:21把会幕的物料清点交在他手下，显明他受托管理圣所中利未人的事奉。"
       },
       "sampleVerse": {
-        "reference": "Exodus 28:1",
-        "text": "And take thou unto thee Aaron thy brother, and his sons with him, from among the children of Israel, that he may minister unto me in the priest's office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron's sons."
+        "reference": "Exodus 38:21",
+        "text": "This is the sum of the tabernacle, even of the tabernacle of testimony, as it was counted, according to the commandment of Moses, for the service of the Levites, by the hand of Ithamar, son to Aaron the priest."
       }
     },
     {
@@ -2387,7 +2387,7 @@
       "tier": "A",
       "category": "person",
       "explanation": {
-        "en": "Abijah son of Rehoboam was the second king of Judah after the kingdom divided and is also called Abijam. Second Chronicles 13:1 dates his accession during Jeroboam's reign, placing his short rule within the continuing conflict between north and south.",
+        "en": "Abijah son of Rehoboam was the second king of Judah after the kingdom divided and is also called Abijam. 2 Chronicles 13:1 dates his accession during Jeroboam's reign, placing his short rule within the continuing conflict between north and south.",
         "zh": "罗波安的儿子亚比雅是王国分裂后的第二位犹大王，也称亚比央。历代志下13:1把他的登基定在耶罗波安年间，使其短暂统治处于南北两国持续冲突之中。"
       },
       "sampleVerse": {
@@ -2469,7 +2469,7 @@
       "word": "RIVER",
       "length": 5,
       "tier": "B",
-      "category": "place",
+      "category": "concept",
       "explanation": {
         "en": "A river is a flowing watercourse that sustains life, marks boundaries, and shapes many biblical journeys. Genesis 2:10 describes a river watering Eden before dividing into four heads, presenting abundant water as part of the created garden.",
         "zh": "河流是不断流动的水道，维持生命、划定边界，也塑造许多圣经旅程。创世记2:10描述一条河从伊甸流出滋润园子，随后分为四道，显出受造园地中丰盛的水源。"
@@ -2499,7 +2499,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Stone was a common building material, boundary marker, memorial, weapon, and rich biblical symbol. First Peter 2:5 calls believers living stones being built into a spiritual house around Christ, the chosen cornerstone.",
+        "en": "Stone was a common building material, boundary marker, memorial, weapon, and rich biblical symbol. 1 Peter 2:5 calls believers living stones being built into a spiritual house around Christ, the chosen cornerstone.",
         "zh": "石头在圣经时代是常见的建筑材料、界标、纪念物和武器，也具有丰富象征意义。彼得前书2:5称信徒为活石，围绕蒙拣选的房角石基督，被建造成属灵的殿。"
       },
       "sampleVerse": {
@@ -2531,7 +2531,7 @@
         "zh": "羊是圣经牧养生活的重要牲畜，高度倚赖牧人供应、引导和保护。诗篇23:1称耶和华为诗人的牧者，以羊的倚赖表达对上帝照顾的坚定信靠。"
       },
       "sampleVerse": {
-        "reference": "Psalms 23:1",
+        "reference": "Psalm 23:1",
         "text": "The LORD is my shepherd; I shall not want."
       }
     },
@@ -2567,7 +2567,7 @@
       "word": "THRONE",
       "length": 6,
       "tier": "B",
-      "category": "place",
+      "category": "concept",
       "explanation": {
         "en": "A throne is the seat and symbol of royal authority; God's throne represents his sovereign rule and judgment. Revelation 4:2 centers John's heavenly vision on a throne and the One seated upon it, placing divine kingship above every earthly power.",
         "zh": "宝座是君王权柄的座位和象征；上帝的宝座代表祂至高的统治与审判。启示录4:2把约翰的天上异象集中在宝座和坐在其上的主，使神圣王权高过一切地上势力。"
@@ -2595,7 +2595,7 @@
       "word": "PETER",
       "length": 5,
       "tier": "B",
-      "category": "concept",
+      "category": "person",
       "explanation": {
         "en": "Peter was a fisherman called by Jesus and a leading apostle whose denial was followed by restoration and bold witness. Acts 2:14 records him standing with the Twelve to preach at Pentecost, marking his public role in the early church.",
         "zh": "彼得原是蒙耶稣呼召的渔夫，后来成为重要使徒；他虽曾否认主，却得恢复并勇敢见证。使徒行传2:14记载他在五旬节与十一使徒一同站起讲道，显出他在初代教会中的公开角色。"
@@ -2609,7 +2609,7 @@
       "word": "EAST",
       "length": 4,
       "tier": "B",
-      "category": "place",
+      "category": "concept",
       "explanation": {
         "en": "East is the direction of sunrise and often locates lands such as Arabia, Mesopotamia, or Persia from Israel's viewpoint. Matthew 2:2 records wise men from the east seeking the newborn King after seeing his star.",
         "zh": "东是日出的方向；从以色列视角看，也常用来定位阿拉伯、美索不达米亚或波斯等地。马太福音2:2记载来自东方的博士看见新王之星，前来寻找祂。"
@@ -2643,7 +2643,7 @@
         "zh": "Heathen 是 KJV 中指以色列以外“列国”或“外邦人”的旧词，并非宣称某个族群的人性价值较低。诗篇115:2写列国追问以色列的上帝在哪里，随后把他们的偶像与在天掌权的上帝对比。"
       },
       "sampleVerse": {
-        "reference": "Psalms 115:2",
+        "reference": "Psalm 115:2",
         "text": "Wherefore should the heathen say, Where is now their God?"
       }
     },
@@ -2665,7 +2665,7 @@
       "word": "JOHN",
       "length": 4,
       "tier": "B",
-      "category": "concept",
+      "category": "name/other",
       "explanation": {
         "en": "John most prominently names John the Baptist, who prepared for Jesus, and the apostle John, one of the Twelve. Matthew 3:1 introduces the Baptist preaching repentance in Judea's wilderness before Christ's public ministry.",
         "zh": "约翰主要指为耶稣预备道路的施洗约翰，也指十二使徒之一的使徒约翰。马太福音3:1介绍施洗约翰在犹太旷野传讲悔改，时间在基督公开传道之前。"
@@ -2681,7 +2681,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Money is a medium of exchange and a practical tool, but Scripture repeatedly warns against making wealth one's master. First Timothy 6:10 identifies love of money—not money itself—as a root that draws people into many evils and sorrows.",
+        "en": "Money is a medium of exchange and a practical tool, but Scripture repeatedly warns against making wealth one's master. 1 Timothy 6:10 identifies love of money—not money itself—as a root that draws people into many evils and sorrows.",
         "zh": "金钱是交换媒介和实用工具，但圣经屡次警告人不可让财富成为主人。提摩太前书6:10指出，万恶之根是贪爱钱财，而不是钱本身；这种贪爱使人陷入许多罪恶和愁苦。"
       },
       "sampleVerse": {
@@ -2713,7 +2713,7 @@
         "zh": "山谷是丘陵或山脉之间的低地，可让人想到肥沃、旅途、危险或争战。诗篇23:4用幽暗山谷描绘致命险境，而牧者的同在使人不再惧怕。"
       },
       "sampleVerse": {
-        "reference": "Psalms 23:4",
+        "reference": "Psalm 23:4",
         "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
       }
     },
@@ -2863,7 +2863,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Chosen describes someone or something selected for a purpose by deliberate decision rather than accident. First Peter 2:9 calls believers a chosen generation so that they may proclaim the praises of the One who brought them from darkness into light.",
+        "en": "Chosen describes someone or something selected for a purpose by deliberate decision rather than accident. 1 Peter 2:9 calls believers a chosen generation so that they may proclaim the praises of the One who brought them from darkness into light.",
         "zh": "蒙拣选表示某人或某物是为特定目的而被有意选定，并非偶然。彼得前书2:9称信徒为蒙拣选的族类，为要宣扬那位召他们出黑暗入光明者的美德。"
       },
       "sampleVerse": {
@@ -2889,9 +2889,9 @@
       "word": "ROCK",
       "length": 4,
       "tier": "B",
-      "category": "place",
+      "category": "concept",
       "explanation": {
-        "en": "Rock denotes solid stone and becomes an image of stability, refuge, and God's faithful provision. First Corinthians 10:4 recalls water supplied in the wilderness and identifies the spiritual Rock accompanying Israel with Christ.",
+        "en": "Rock denotes solid stone and becomes an image of stability, refuge, and God's faithful provision. 1 Corinthians 10:4 recalls water supplied in the wilderness and identifies the spiritual Rock accompanying Israel with Christ.",
         "zh": "磐石指坚固的岩体，也成为稳定、避难和上帝信实供应的象征。哥林多前书10:4回顾旷野中所得的水，并把伴随以色列的属灵磐石认作基督。"
       },
       "sampleVerse": {
@@ -2947,7 +2947,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Gospel means good news: God's saving work through Jesus Christ, calling people to faith and a renewed life. First Corinthians 15:3 begins Paul's summary with Christ dying for our sins according to the Scriptures, followed by burial and resurrection.",
+        "en": "Gospel means good news: God's saving work through Jesus Christ, calling people to faith and a renewed life. 1 Corinthians 15:3 begins Paul's summary with Christ dying for our sins according to the Scriptures, followed by burial and resurrection.",
         "zh": "福音意为“好消息”，就是上帝借耶稣基督施行拯救，并呼召人信靠祂、过更新的生活。哥林多前书15:3以基督照圣经为我们的罪而死开始保罗的概要，随后还有埋葬与复活。"
       },
       "sampleVerse": {
@@ -2975,12 +2975,12 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Prayer is direct communication with God through praise, confession, thanksgiving, lament, intercession, and request. Matthew 6:9 begins Jesus' model prayer with reverence for the heavenly Father and his holy name.",
-        "zh": "祷告是人借赞美、认罪、感恩、哀诉、代求和祈求直接与上帝交流。马太福音6:9以尊崇天父和祂的圣名，开始耶稣所教导的祷告范式。"
+        "en": "Prayer is direct communication with God through praise, confession, thanksgiving, lament, intercession, and request. James 5:16 urges believers to confess and pray for one another, promising that a righteous person's earnest prayer accomplishes much.",
+        "zh": "祷告是人借赞美、认罪、感恩、哀诉、代求和祈求直接与上帝交流。雅各书5:16劝信徒彼此认罪、互相代求，并应许义人恳切的祈祷大有功效。"
       },
       "sampleVerse": {
-        "reference": "Matthew 6:9",
-        "text": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name."
+        "reference": "James 5:16",
+        "text": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much."
       }
     },
     {
@@ -3017,7 +3017,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Bullock is an older term for a young bull or an animal of the cattle kind, often used for sacrifice. First Samuel 1:25 records Hannah's family offering a bullock when bringing the child Samuel to lifelong service at the sanctuary.",
+        "en": "Bullock is an older term for a young bull or an animal of the cattle kind, often used for sacrifice. 1 Samuel 1:25 records Hannah's family offering a bullock when bringing the child Samuel to lifelong service at the sanctuary.",
         "zh": "Bullock 是指小公牛或牛类祭牲的旧词。撒母耳记上1:25记载哈拿一家把幼年的撒母耳带到圣所终身事奉时，献上一只公牛。"
       },
       "sampleVerse": {
@@ -3269,7 +3269,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "An army is an organized body of soldiers arranged under commanders for war. First Samuel 17:21 depicts Israel and the Philistines setting their forces in battle array just before David hears Goliath's challenge.",
+        "en": "An army is an organized body of soldiers arranged under commanders for war. 1 Samuel 17:21 depicts Israel and the Philistines setting their forces in battle array just before David hears Goliath's challenge.",
         "zh": "军队是按指挥体系组织起来、用于作战的士兵群体。撒母耳记上17:21描写以色列和非利士双方摆列队伍，随后大卫便听见歌利亚的挑战。"
       },
       "sampleVerse": {
@@ -3295,7 +3295,7 @@
       "word": "PLAIN",
       "length": 5,
       "tier": "B",
-      "category": "place",
+      "category": "concept",
       "explanation": {
         "en": "A plain is broad, relatively level land, often suited to travel, settlement, or cultivation. Genesis 13:10 describes the well-watered Jordan plain that attracted Lot, though its prosperous appearance concealed Sodom's danger.",
         "zh": "平原是广阔而相对平坦的土地，常适合通行、定居或耕作。创世记13:10描写水源充足、吸引罗得的约旦平原；然而繁荣外表遮盖了所多玛的危险。"
@@ -3357,7 +3357,7 @@
         "zh": "细拉是主要出现在诗篇中的音乐或礼仪记号，确切含义仍不能确定。诗篇3:2把它放在仇敌声称大卫不得上帝帮助之后，可能标示停顿，随后转入他的信心回应。"
       },
       "sampleVerse": {
-        "reference": "Psalms 3:2",
+        "reference": "Psalm 3:2",
         "text": "Many there be which say of my soul, There is no help for him in God. Selah."
       }
     },
@@ -3367,12 +3367,12 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "White is a color associated in Scripture with light, purity, victory, and cleansed garments. Isaiah 1:18 promises that sins red like scarlet can become white as snow through God's gracious cleansing.",
-        "zh": "白色在圣经中与光明、纯洁、得胜和洗净的衣袍相连。以赛亚书1:18应许，虽罪如朱红，也能因上帝恩慈的洁净变得白如雪。"
+        "en": "White is a color associated in Scripture with light, purity, victory, and cleansed garments. Mark 9:3 describes Jesus' clothing at the transfiguration as shining and whiter than any earthly cleaning could make it.",
+        "zh": "白色在圣经中与光明、纯洁、得胜和洗净的衣袍相连。马可福音9:3描写耶稣登山变像时衣服洁白发光，是世上漂布的人无法漂白的。"
       },
       "sampleVerse": {
-        "reference": "Isaiah 1:18",
-        "text": "Come now, and let us reason together, saith the LORD: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool."
+        "reference": "Mark 9:3",
+        "text": "And his raiment became shining, exceeding white as snow; so as no fuller on earth can white them."
       }
     },
     {
@@ -3413,7 +3413,7 @@
         "zh": "门控制住宅、城市、院落和圣所的出入，也可象征接纳或拒绝。诗篇24:7以诗歌语言吩咐永久的门户抬起，让荣耀的王得胜进入。"
       },
       "sampleVerse": {
-        "reference": "Psalms 24:7",
+        "reference": "Psalm 24:7",
         "text": "Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in."
       }
     },
@@ -3491,7 +3491,7 @@
       "word": "BETHEL",
       "length": 6,
       "tier": "B",
-      "category": "concept",
+      "category": "place",
       "explanation": {
         "en": "Bethel means house of God and was a central hill-country town that later became both a worship site and a center of corrupt worship. Genesis 28:19 records Jacob renaming Luz after his dream of God's presence and promise there.",
         "zh": "伯特利意为“上帝的殿”，是中部山地的重要城市，后来既是敬拜地点，也成为败坏崇拜的中心。创世记28:19记载雅各在那里梦见上帝的同在与应许后，把路斯改名为伯特利。"
@@ -3507,7 +3507,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "A crown signifies royal authority, honor, victory, or a reward bestowed after faithful endurance. Second Timothy 4:8 looks forward to the crown of righteousness Christ will give at his appearing, grounding reward in the righteous Judge's promise.",
+        "en": "A crown signifies royal authority, honor, victory, or a reward bestowed after faithful endurance. 2 Timothy 4:8 looks forward to the crown of righteousness Christ will give at his appearing, grounding reward in the righteous Judge's promise.",
         "zh": "冠冕象征王权、尊荣、得胜，或忠心忍耐后所得的赏赐。提摩太后书4:8盼望基督显现时赐下公义的冠冕，把赏赐建立在公义审判者的应许上。"
       },
       "sampleVerse": {
@@ -3535,12 +3535,12 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "The deep denotes a vast depth of water, an abyss, or the sea beyond ordinary human reach. Genesis 1:2 pictures darkness over the face of the deep before God orders and fills the unformed creation.",
-        "zh": "深渊指广大深水、无底处，或人力难以到达的海洋深处。创世记1:2描写上帝整理并充满尚未成形的世界以前，黑暗笼罩渊面。"
+        "en": "The deep denotes a vast depth of water, an abyss, or the sea beyond ordinary human reach. Psalm 42:7 has deep calling to deep amid breaking waves, turning that immensity into an image of overwhelming sorrow.",
+        "zh": "深渊指广大深水、无底处，或人力难以到达的海洋深处。诗篇42:7以深渊与深渊响应、波浪漫过的画面，把这份浩大化作忧伤淹没人心的写照。"
       },
       "sampleVerse": {
-        "reference": "Genesis 1:2",
-        "text": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+        "reference": "Psalm 42:7",
+        "text": "Deep calleth unto deep at the noise of thy waterspouts: all thy waves and thy billows are gone over me."
       }
     },
     {
@@ -3577,7 +3577,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "A blemish is a defect that disqualified an animal from being offered as a complete sacrifice. First Peter 1:19 calls Christ a lamb without blemish and spot, presenting his sinless life and atoning death as the perfect ransom.",
+        "en": "A blemish is a defect that disqualified an animal from being offered as a complete sacrifice. 1 Peter 1:19 calls Christ a lamb without blemish and spot, presenting his sinless life and atoning death as the perfect ransom.",
         "zh": "瑕疵是会使祭牲不符合完整献祭要求的缺陷。彼得前书1:19称基督为无瑕疵、无玷污的羔羊，表明祂无罪的生命和赎罪之死是完全的赎价。"
       },
       "sampleVerse": {
@@ -3609,7 +3609,7 @@
         "zh": "颈项支撑头部，在圣经意象中可表示顺服、奴役或顽梗骄傲。诗篇75:5警告狂傲的人不要高举角，也不可挺着颈项说话敌对上帝。"
       },
       "sampleVerse": {
-        "reference": "Psalms 75:5",
+        "reference": "Psalm 75:5",
         "text": "Lift not up your horn on high: speak not with a stiff neck."
       }
     },
@@ -3633,12 +3633,12 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Devil means slanderer and names the same adversary also called Satan, the serpent, and the deceiver. Revelation 12:9 gathers these titles together and describes his worldwide deception before God's victory removes him.",
-        "zh": "魔鬼意为“毁谤者”，与撒但、古蛇和迷惑者都是同一仇敌的称呼。启示录12:9把这些称号集中起来，描述他迷惑普天下，也宣告上帝最终将他除去。"
+        "en": "Devil means slanderer and names the same adversary also called Satan, the serpent, and the deceiver. 1 Peter 5:8 warns believers to stay sober and watchful because the devil prowls like a roaring lion seeking someone to devour.",
+        "zh": "魔鬼意为“毁谤者”，与撒但、古蛇和迷惑者都是同一仇敌的称呼。彼得前书5:8警告信徒要谨守警醒，因为魔鬼如同吼叫的狮子遍地游行，寻找可吞吃的人。"
       },
       "sampleVerse": {
-        "reference": "Revelation 12:9",
-        "text": "And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him."
+        "reference": "1 Peter 5:8",
+        "text": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour:"
       }
     },
     {
@@ -3689,12 +3689,12 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "A journey is travel from one place to another, often carrying a person through testing, change, and dependence. Exodus 13:21 says God guided Israel's journey from Egypt with cloud by day and fire by night.",
-        "zh": "旅程是从一处前往另一处的过程，常使人经历考验、改变和倚靠。出埃及记13:21说上帝在以色列离开埃及的旅途中，白日以云柱、夜间以火柱引导。"
+        "en": "A journey is travel from one place to another, often carrying a person through testing, change, and dependence. Luke 2:44 describes Joseph and Mary traveling a day's journey before realizing the boy Jesus was not with them.",
+        "zh": "旅程是从一处前往另一处的过程，常使人经历考验、改变和倚靠。路加福音2:44记载约瑟和马利亚走了一天的路程，才发觉孩童耶稣没有同行。"
       },
       "sampleVerse": {
-        "reference": "Exodus 13:21",
-        "text": "And the LORD went before them by day in a pillar of a cloud, to lead them the way; and by night in a pillar of fire, to give them light; to go by day and night:"
+        "reference": "Luke 2:44",
+        "text": "But they, supposing him to have been in the company, went a day's journey; and they sought him among their kinsfolk and acquaintance."
       }
     },
     {
@@ -3759,7 +3759,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Shimei son of Gera was a Benjaminite of Saul's house who cursed David during Absalom's rebellion. Second Samuel 16:5 records him coming from Bahurim and cursing as the fleeing king approached, testing David's restraint.",
+        "en": "Shimei son of Gera was a Benjaminite of Saul's house who cursed David during Absalom's rebellion. 2 Samuel 16:5 records him coming from Bahurim and cursing as the fleeing king approached, testing David's restraint.",
         "zh": "基拉的儿子示每是扫罗家族的便雅悯人，在押沙龙叛乱期间咒骂大卫。撒母耳记下16:5记载逃亡的王接近巴户琳时，他出来咒骂，考验了大卫的克制。"
       },
       "sampleVerse": {
@@ -3773,7 +3773,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Honey was gathered from wild bees or produced from fruit syrup and symbolized the land's abundance and sweetness. First Samuel 14:27 records Jonathan being refreshed by wild honey, unaware of Saul's rash ban on food.",
+        "en": "Honey was gathered from wild bees or produced from fruit syrup and symbolized the land's abundance and sweetness. 1 Samuel 14:27 records Jonathan being refreshed by wild honey, unaware of Saul's rash ban on food.",
         "zh": "蜜可来自野蜂，也可指浓缩果浆，在圣经中象征土地的丰盛与甘甜。撒母耳记上14:27记载约拿单吃野蜜后精神恢复，却不知道扫罗曾草率禁止百姓进食。"
       },
       "sampleVerse": {
@@ -3913,7 +3913,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Ramah was a Benjaminite hill-town and the home of Elkanah, Hannah, and their son Samuel. First Samuel 1:19 records the family returning there after worship at Shiloh, just before God answers Hannah's prayer for a child.",
+        "en": "Ramah was a Benjaminite hill-town and the home of Elkanah, Hannah, and their son Samuel. 1 Samuel 1:19 records the family returning there after worship at Shiloh, just before God answers Hannah's prayer for a child.",
         "zh": "拉玛是便雅悯境内的山城，也是以利加拿、哈拿和儿子撒母耳的家乡。撒母耳记上1:19记载一家人在示罗敬拜后回到那里，紧接着上帝便回应哈拿求子的祷告。"
       },
       "sampleVerse": {
@@ -3955,7 +3955,7 @@
       "tier": "B",
       "category": "concept",
       "explanation": {
-        "en": "Cedar is a tall, fragrant, durable tree whose timber from Lebanon was prized for palaces and the temple. First Kings 5:10 records Hiram supplying Solomon with cedar and fir according to their agreement.",
+        "en": "Cedar is a tall, fragrant, durable tree whose timber from Lebanon was prized for palaces and the temple. 1 Kings 5:10 records Hiram supplying Solomon with cedar and fir according to their agreement.",
         "zh": "香柏是高大、芳香而耐久的树；黎巴嫩香柏木尤其用于宫殿和圣殿。列王纪上5:10记载希兰按约供应所罗门香柏木和松木。"
       },
       "sampleVerse": {
@@ -4053,7 +4053,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Sheba was a wealthy South Arabian kingdom associated with long-distance trade in spices and gold. First Kings 10:1 records its queen traveling to test Solomon's famed wisdom with difficult questions.",
+        "en": "Sheba was a wealthy South Arabian kingdom associated with long-distance trade in spices and gold. 1 Kings 10:1 records its queen traveling to test Solomon's famed wisdom with difficult questions.",
         "zh": "示巴是富有的南阿拉伯王国，与香料和黄金的远途贸易有关。列王纪上10:1记载示巴女王远道而来，用难题考问声名远播的所罗门智慧。"
       },
       "sampleVerse": {
@@ -4067,7 +4067,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Joram, also called Jehoram, was Ahab's son and king of northern Israel after Ahaziah. Second Kings 3:1 dates his accession during Jehoshaphat's reign in Judah, introducing the ruler involved in the campaign against Moab.",
+        "en": "Joram, also called Jehoram, was Ahab's son and king of northern Israel after Ahaziah. 2 Kings 3:1 dates his accession during Jehoshaphat's reign in Judah, introducing the ruler involved in the campaign against Moab.",
         "zh": "约兰又称约兰，是亚哈的儿子，在亚哈谢之后作北国以色列王。列王纪下3:1把他的登基定在犹大王约沙法年间，并引出后来攻打摩押的统治者。"
       },
       "sampleVerse": {
@@ -4095,12 +4095,12 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Elam was a son of Shem and the name of the people and highland country east of Babylonia associated with his descendants. Genesis 10:22 places him in Shem's family line, giving the biblical genealogy behind the national name.",
-        "zh": "以拦是闪的儿子，也成为巴比伦以东高地及其民族的名称，与他的后裔相连。创世记10:22把他列在闪的家谱中，给出这个民族名称的圣经谱系背景。"
+        "en": "Elam was a son of Shem and the name of the people and highland country east of Babylonia associated with his descendants. Genesis 14:1 names Chedorlaomer king of Elam among the eastern kings whose campaign drew Abram into rescuing Lot.",
+        "zh": "以拦是闪的儿子，也成为巴比伦以东高地及其民族的名称，与他的后裔相连。创世记14:1把以拦王基大老玛列在东方诸王之中；他们的征战使亚伯兰出手拯救罗得。"
       },
       "sampleVerse": {
-        "reference": "Genesis 10:22",
-        "text": "The children of Shem; Elam, and Asshur, and Arphaxad, and Lud, and Aram."
+        "reference": "Genesis 14:1",
+        "text": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;"
       }
     },
     {
@@ -4137,7 +4137,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Ashdod was a chief Philistine coastal city and a center of the worship of Dagon. First Samuel 5:2 records the Philistines placing Israel's captured ark in Dagon's temple, where the idol's fall exposed their false triumph.",
+        "en": "Ashdod was a chief Philistine coastal city and a center of the worship of Dagon. 1 Samuel 5:2 records the Philistines placing Israel's captured ark in Dagon's temple, where the idol's fall exposed their false triumph.",
         "zh": "亚实突是非利士主要沿海城市，也是大衮崇拜中心。撒母耳记上5:2记载非利士人把掳来的约柜放进大衮庙；随后偶像倒下，显出他们的胜利是假象。"
       },
       "sampleVerse": {
@@ -4151,7 +4151,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Nabal was a wealthy Calebite whose name means fool and whose harshness endangered his household. First Samuel 25:3 contrasts his churlish character with the wisdom of his wife Abigail, preparing for her intervention with David.",
+        "en": "Nabal was a wealthy Calebite whose name means fool and whose harshness endangered his household. 1 Samuel 25:3 contrasts his churlish character with the wisdom of his wife Abigail, preparing for her intervention with David.",
         "zh": "拿八是富有的迦勒族人，名字意为“愚顽”；他的粗暴使全家陷入危险。撒母耳记上25:3把他的乖僻与妻子亚比该的聪慧对照，为她后来出面劝阻大卫铺路。"
       },
       "sampleVerse": {
@@ -4165,7 +4165,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Naboth was a Jezreelite who owned an ancestral vineyard beside Ahab's palace. First Kings 21:3 records him refusing to surrender the inheritance God had entrusted to his family, leading Jezebel to arrange his judicial murder.",
+        "en": "Naboth was a Jezreelite who owned an ancestral vineyard beside Ahab's palace. 1 Kings 21:3 records him refusing to surrender the inheritance God had entrusted to his family, leading Jezebel to arrange his judicial murder.",
         "zh": "拿伯是耶斯列人，在亚哈王宫旁拥有祖传葡萄园。列王纪上21:3记载他拒绝交出上帝托付给家族的产业，结果耶洗别策划以司法手段杀害他。"
       },
       "sampleVerse": {
@@ -4193,7 +4193,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Jehoram son of Jehoshaphat was king of Judah and married into Ahab's idolatrous dynasty. Second Chronicles 21:4 records him killing his brothers after securing the throne, revealing the violent apostasy that marked his reign.",
+        "en": "Jehoram son of Jehoshaphat was king of Judah and married into Ahab's idolatrous dynasty. 2 Chronicles 21:4 records him killing his brothers after securing the throne, revealing the violent apostasy that marked his reign.",
         "zh": "约沙法的儿子约兰作犹大王，并与亚哈拜偶像的王朝联姻。历代志下21:4记载他巩固王位后杀死众兄弟，显出其统治中的暴力与背道。"
       },
       "sampleVerse": {
@@ -4291,7 +4291,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Micaiah son of Imlah was a faithful prophet who contradicted Ahab's flattering court prophets. First Kings 22:14 records his resolve to speak only what the LORD told him, even though truth would bring imprisonment.",
+        "en": "Micaiah son of Imlah was a faithful prophet who contradicted Ahab's flattering court prophets. 1 Kings 22:14 records his resolve to speak only what the LORD told him, even though truth would bring imprisonment.",
         "zh": "音拉的儿子米该雅是忠心先知，敢于反对迎合亚哈的宫廷先知。列王纪上22:14记载他决意只说耶和华吩咐的话，即使真话会使他入狱。"
       },
       "sampleVerse": {
@@ -4333,7 +4333,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Amon son of Manasseh became king of Judah and quickly continued the idolatry of his father's earlier years. Second Kings 21:20 judges his conduct as evil before the LORD, and his servants soon assassinated him.",
+        "en": "Amon son of Manasseh became king of Judah and quickly continued the idolatry of his father's earlier years. 2 Kings 21:20 judges his conduct as evil before the LORD, and his servants soon assassinated him.",
         "zh": "玛拿西的儿子亚们作犹大王，很快继续父亲早年偶像崇拜的道路。列王纪下21:20判定他行耶和华眼中看为恶的事；不久臣仆便刺杀了他。"
       },
       "sampleVerse": {
@@ -4347,12 +4347,12 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Ephesus was the chief city of Roman Asia and famous for the temple of Artemis, called Diana in the KJV. Acts 19:28 records craftsmen shouting for Diana during a riot because the gospel threatened their idolatrous trade.",
-        "zh": "以弗所是罗马亚细亚的首府，以亚底米神庙闻名，KJV 称这女神为 Diana。使徒行传19:28记载工匠因福音威胁偶像生意而骚乱，高喊女神的名。"
+        "en": "Ephesus was the chief city of Roman Asia and famous for the temple of Artemis, called Diana in the KJV. Revelation 2:1 addresses the church there first among the seven letters, picturing Christ walking among the golden candlesticks.",
+        "zh": "以弗所是罗马亚细亚的首府，以亚底米神庙闻名，KJV 称这女神为 Diana。启示录2:1在七封书信中首先写给那里的教会，并描写基督行走在金灯台中间。"
       },
       "sampleVerse": {
-        "reference": "Acts 19:28",
-        "text": "And when they heard these sayings, they were full of wrath, and cried out, saying, Great is Diana of the Ephesians."
+        "reference": "Revelation 2:1",
+        "text": "Unto the angel of the church of Ephesus write; These things saith he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks;"
       }
     },
     {
@@ -4361,7 +4361,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Kish was a wealthy Benjaminite and the father of Saul, Israel's first king. First Samuel 9:1 introduces his ancestry and standing immediately before Saul's search for lost donkeys leads to Samuel.",
+        "en": "Kish was a wealthy Benjaminite and the father of Saul, Israel's first king. 1 Samuel 9:1 introduces his ancestry and standing immediately before Saul's search for lost donkeys leads to Samuel.",
         "zh": "基士是富有的便雅悯人，也是以色列第一位君王扫罗的父亲。撒母耳记上9:1在扫罗寻找失驴并遇见撒母耳之前，先介绍他的家谱和地位。"
       },
       "sampleVerse": {
@@ -4375,7 +4375,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Michal was Saul's daughter and David's first wife, whose relationship with him was shaped by love, royal conflict, and later estrangement. First Samuel 19:12 records her lowering David through a window to save him from Saul's killers.",
+        "en": "Michal was Saul's daughter and David's first wife, whose relationship with him was shaped by love, royal conflict, and later estrangement. 1 Samuel 19:12 records her lowering David through a window to save him from Saul's killers.",
         "zh": "米甲是扫罗的女儿和大卫的第一位妻子；两人的关系经历爱情、王室冲突和后来的疏离。撒母耳记上19:12记载她从窗户缒下大卫，使他逃离扫罗派来的杀手。"
       },
       "sampleVerse": {
@@ -4417,7 +4417,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Keilah was a fortified town in Judah's lowlands attacked by Philistine raiders. First Samuel 23:5 records David rescuing its inhabitants and their livestock, although the town would later be willing to surrender him to Saul.",
+        "en": "Keilah was a fortified town in Judah's lowlands attacked by Philistine raiders. 1 Samuel 23:5 records David rescuing its inhabitants and their livestock, although the town would later be willing to surrender him to Saul.",
         "zh": "基伊拉是犹大低地的坚城，曾受非利士掠夺者攻击。撒母耳记上23:5记载大卫救了居民和牲畜，尽管这城后来准备把他交给扫罗。"
       },
       "sampleVerse": {
@@ -4459,7 +4459,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Asahel was David's nephew, Joab's younger brother, and a warrior famed for speed. Second Samuel 2:23 records Abner killing him after repeated warnings to stop pursuit, a death that fueled lasting blood vengeance.",
+        "en": "Asahel was David's nephew, Joab's younger brother, and a warrior famed for speed. 2 Samuel 2:23 records Abner killing him after repeated warnings to stop pursuit, a death that fueled lasting blood vengeance.",
         "zh": "亚撒黑是大卫的外甥、约押的弟弟，也是以奔跑迅速闻名的战士。撒母耳记下2:23记载他无视多次警告继续追赶，最终被押尼珥杀死，由此引发长期血仇。"
       },
       "sampleVerse": {
@@ -4501,7 +4501,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Shallum son of Jabesh seized Israel's throne by killing Zechariah but held it only one month. Second Kings 15:13 dates that brief reign in Samaria before Menahem overthrew him.",
+        "en": "Shallum son of Jabesh seized Israel's throne by killing Zechariah but held it only one month. 2 Kings 15:13 dates that brief reign in Samaria before Menahem overthrew him.",
         "zh": "雅比的儿子沙龙杀死撒迦利雅夺取以色列王位，却只统治一个月。列王纪下15:13记下他在撒玛利亚短暂的王权，随后便被米拿现推翻。"
       },
       "sampleVerse": {
@@ -4529,7 +4529,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ahijah of Shiloh was the prophet who announced that most of Solomon's kingdom would pass to Jeroboam. First Kings 11:31 interprets the torn garment as ten tribes taken from Solomon's house because of covenant unfaithfulness.",
+        "en": "Ahijah of Shiloh was the prophet who announced that most of Solomon's kingdom would pass to Jeroboam. 1 Kings 11:31 interprets the torn garment as ten tribes taken from Solomon's house because of covenant unfaithfulness.",
         "zh": "示罗人亚希雅是先知，宣告所罗门的大部分国土将归耶罗波安。列王纪上11:31以撕裂的衣服解释十个支派将从所罗门家夺去，原因是对盟约不忠。"
       },
       "sampleVerse": {
@@ -4543,7 +4543,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Elkanah was a Levite living in Ephraim, husband of Hannah, and father of Samuel. First Samuel 1:3 describes his yearly journey to Shiloh for worship and sacrifice, the setting in which Hannah prayed for a son.",
+        "en": "Elkanah was a Levite living in Ephraim, husband of Hannah, and father of Samuel. 1 Samuel 1:3 describes his yearly journey to Shiloh for worship and sacrifice, the setting in which Hannah prayed for a son.",
         "zh": "以利加拿是住在以法莲的利未人、哈拿的丈夫，也是撒母耳的父亲。撒母耳记上1:3描述他每年到示罗敬拜献祭，这也成为哈拿求子的背景。"
       },
       "sampleVerse": {
@@ -4571,7 +4571,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Omri was an Israelite commander who won a civil struggle for the throne and founded a powerful northern dynasty. First Kings 16:24 records him buying the hill of Samaria and building the city that became Israel's capital.",
+        "en": "Omri was an Israelite commander who won a civil struggle for the throne and founded a powerful northern dynasty. 1 Kings 16:24 records him buying the hill of Samaria and building the city that became Israel's capital.",
         "zh": "暗利原是以色列将领，在争夺王位的内战中获胜，并建立强大的北国王朝。列王纪上16:24记载他买下撒玛利亚山，建造后来成为以色列首都的城市。"
       },
       "sampleVerse": {
@@ -4585,7 +4585,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Tirzah was a beautiful Canaanite royal city that served as the northern kingdom's capital before Samaria. First Kings 14:17 records Jeroboam's wife returning there as their son dies according to Ahijah's word.",
+        "en": "Tirzah was a beautiful Canaanite royal city that served as the northern kingdom's capital before Samaria. 1 Kings 14:17 records Jeroboam's wife returning there as their son dies according to Ahijah's word.",
         "zh": "得撒是美丽的迦南王城，在撒玛利亚建成前曾作北国首都。列王纪上14:17记载耶罗波安的妻子回到那里时，儿子按亚希雅的话死去。"
       },
       "sampleVerse": {
@@ -4599,7 +4599,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Zerah the Ethiopian led a vast army against Judah during King Asa's reign. Second Chronicles 14:9 records his advance to Mareshah, where Asa sought God and the invading force was defeated.",
+        "en": "Zerah the Ethiopian led a vast army against Judah during King Asa's reign. 2 Chronicles 14:9 records his advance to Mareshah, where Asa sought God and the invading force was defeated.",
         "zh": "古实人谢拉在亚撒王时期率领大军攻打犹大。历代志下14:9记载他进到玛利沙；亚撒在那里求告上帝，入侵军最终战败。"
       },
       "sampleVerse": {
@@ -4641,12 +4641,12 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Haran was the Mesopotamian city where Terah's family settled after leaving Ur and where Abraham later received God's call to continue. Genesis 11:31 records the migration stopping there on its way toward Canaan.",
-        "zh": "哈兰是美索不达米亚的城市；他拉一家离开吾珥后定居于此，亚伯拉罕后来也在这里领受继续前行的呼召。创世记11:31记载他们往迦南的迁移在此暂时停下。"
+        "en": "Haran was the Mesopotamian city where Terah's family settled after leaving Ur and where Abraham later received God's call to continue. Genesis 12:4 records Abram leaving Haran at seventy-five to follow the LORD's word.",
+        "zh": "哈兰是美索不达米亚的城市；他拉一家离开吾珥后定居于此，亚伯拉罕后来也在这里领受继续前行的呼召。创世记12:4记载亚伯兰七十五岁时离开哈兰，遵着耶和华的吩咐起行。"
       },
       "sampleVerse": {
-        "reference": "Genesis 11:31",
-        "text": "And Terah took Abram his son, and Lot the son of Haran his son's son, and Sarai his daughter in law, his son Abram's wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came unto Haran, and dwelt there."
+        "reference": "Genesis 12:4",
+        "text": "So Abram departed, as the LORD had spoken unto him; and Lot went with him: and Abram was seventy and five years old when he departed out of Haran."
       }
     },
     {
@@ -4655,7 +4655,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ornan, called Araunah elsewhere, was a Jebusite owner of a threshing floor in Jerusalem. First Chronicles 21:22 records David asking to buy that site for an altar to stop the plague; it later became the temple location.",
+        "en": "Ornan, called Araunah elsewhere, was a Jebusite owner of a threshing floor in Jerusalem. 1 Chronicles 21:22 records David asking to buy that site for an altar to stop the plague; it later became the temple location.",
         "zh": "阿珥楠在别处称亚劳拿，是在耶路撒冷拥有禾场的耶布斯人。历代志上21:22记载大卫求购那地筑坛止住瘟疫；那里后来成为圣殿所在地。"
       },
       "sampleVerse": {
@@ -4669,7 +4669,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ziba was a former servant of Saul whom David assigned to manage land for Jonathan's disabled son Mephibosheth. Second Samuel 9:2 introduces him as the source who tells David that a member of Saul's house still lives.",
+        "en": "Ziba was a former servant of Saul whom David assigned to manage land for Jonathan's disabled son Mephibosheth. 2 Samuel 9:2 introduces him as the source who tells David that a member of Saul's house still lives.",
         "zh": "洗巴原是扫罗的仆人，后来大卫派他为约拿单瘸腿的儿子米非波设管理土地。撒母耳记下9:2介绍他向大卫提供消息，说明扫罗家仍有后人活着。"
       },
       "sampleVerse": {
@@ -4683,7 +4683,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ahimaaz son of Zadok served David as a swift messenger during Absalom's revolt. Second Samuel 18:27 records David recognizing his running style and expecting good news, though Ahimaaz avoided announcing Absalom's death.",
+        "en": "Ahimaaz son of Zadok served David as a swift messenger during Absalom's revolt. 2 Samuel 18:27 records David recognizing his running style and expecting good news, though Ahimaaz avoided announcing Absalom's death.",
         "zh": "撒督的儿子亚希玛斯在押沙龙叛乱时作大卫的快足信使。撒母耳记下18:27记载大卫认出他的跑法并期待好消息，尽管亚希玛斯避而不报押沙龙的死讯。"
       },
       "sampleVerse": {
@@ -4697,7 +4697,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Heman was a Levitical singer and seer appointed to lead music in David's sanctuary worship. First Chronicles 15:19 names him among the singers sounding brass cymbals when the ark was brought to Jerusalem.",
+        "en": "Heman was a Levitical singer and seer appointed to lead music in David's sanctuary worship. 1 Chronicles 15:19 names him among the singers sounding brass cymbals when the ark was brought to Jerusalem.",
         "zh": "希幔是利未歌唱者和先见，被任命在大卫时代领导圣所音乐。历代志上15:19把他列在约柜迎入耶路撒冷时敲响铜钹的歌唱者中。"
       },
       "sampleVerse": {
@@ -4711,7 +4711,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Naaman was Syria's respected army commander whose leprosy brought him to the prophet Elisha. Second Kings 5:14 records his reluctant obedience in dipping seven times in the Jordan and his complete healing.",
+        "en": "Naaman was Syria's respected army commander whose leprosy brought him to the prophet Elisha. 2 Kings 5:14 records his reluctant obedience in dipping seven times in the Jordan and his complete healing.",
         "zh": "乃缦是受尊重的叙利亚元帅，因大麻风来到先知以利沙面前。列王纪下5:14记载他最终顺服，在约旦河沐浴七次，身体完全复原。"
       },
       "sampleVerse": {
@@ -4725,7 +4725,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Obadiah was the manager of Ahab's household who quietly remained faithful during Jezebel's persecution. First Kings 18:4 records him hiding and feeding one hundred prophets of the LORD at great personal risk.",
+        "en": "Obadiah was the manager of Ahab's household who quietly remained faithful during Jezebel's persecution. 1 Kings 18:4 records him hiding and feeding one hundred prophets of the LORD at great personal risk.",
         "zh": "俄巴底是在亚哈宫中任职的管家，在耶洗别迫害期间仍暗中忠于上帝。列王纪上18:4记载他冒着个人危险，把耶和华的一百位先知分藏在洞里并供应食物。"
       },
       "sampleVerse": {
@@ -4767,7 +4767,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Amasa was David's nephew whom Absalom appointed commander during his rebellion and whom David later offered Joab's post. Second Samuel 17:25 identifies his parents and military command, setting up the rivalry in which Joab killed him.",
+        "en": "Amasa was David's nephew whom Absalom appointed commander during his rebellion and whom David later offered Joab's post. 2 Samuel 17:25 identifies his parents and military command, setting up the rivalry in which Joab killed him.",
         "zh": "亚玛撒是大卫的外甥，押沙龙叛乱时任命他为元帅，大卫后来又答应让他取代约押。撒母耳记下17:25说明他的父母和军职，为约押后来因竞争杀他铺路。"
       },
       "sampleVerse": {
@@ -4795,7 +4795,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Eliab was Jesse's eldest son and David's older brother, whose impressive appearance caught Samuel's attention. First Samuel 16:6 records Samuel assuming he was God's chosen king before learning that God looks on the heart.",
+        "en": "Eliab was Jesse's eldest son and David's older brother, whose impressive appearance caught Samuel's attention. 1 Samuel 16:6 records Samuel assuming he was God's chosen king before learning that God looks on the heart.",
         "zh": "以利押是耶西的长子、大卫的哥哥，他出众的外表首先吸引撒母耳。撒母耳记上16:6记载撒母耳以为他就是蒙拣选的王，随后才学到上帝察看的是内心。"
       },
       "sampleVerse": {
@@ -4809,7 +4809,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Gezer was a strategic Canaanite city overlooking routes between the coast and hill country. First Kings 9:16 says Pharaoh captured and burned it, then gave it to his daughter as a wedding gift when she married Solomon.",
+        "en": "Gezer was a strategic Canaanite city overlooking routes between the coast and hill country. 1 Kings 9:16 says Pharaoh captured and burned it, then gave it to his daughter as a wedding gift when she married Solomon.",
         "zh": "基色是控制沿海与山地通道的战略性迦南城市。列王纪上9:16说法老攻取并焚烧此城，在女儿嫁给所罗门时把它作为嫁妆。"
       },
       "sampleVerse": {
@@ -4823,7 +4823,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Hushai the Archite was David's loyal friend who returned to Jerusalem as a covert adviser during Absalom's rebellion. Second Samuel 15:34 records David commissioning him to frustrate Ahithophel's counsel from inside the rebel court.",
+        "en": "Hushai the Archite was David's loyal friend who returned to Jerusalem as a covert adviser during Absalom's rebellion. 2 Samuel 15:34 records David commissioning him to frustrate Ahithophel's counsel from inside the rebel court.",
         "zh": "亚基人户筛是大卫忠诚的朋友；押沙龙叛乱时，他回耶路撒冷作秘密顾问。撒母耳记下15:34记载大卫差他从叛军宫廷内部破坏亚希多弗的计谋。"
       },
       "sampleVerse": {
@@ -4879,7 +4879,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Rabbah was the fortified capital of the Ammonites, located at modern Amman. Second Samuel 12:26 records Joab taking its royal sector during David's Ammonite war, shortly after the events involving Uriah.",
+        "en": "Rabbah was the fortified capital of the Ammonites, located at modern Amman. 2 Samuel 12:26 records Joab taking its royal sector during David's Ammonite war, shortly after the events involving Uriah.",
         "zh": "拉巴是亚扪人的坚固首都，位于今日安曼。撒母耳记下12:26记载约押在大卫攻打亚扪的战争中夺取王城，时间紧接乌利亚事件之后。"
       },
       "sampleVerse": {
@@ -4935,7 +4935,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Ziklag was a southern town that the Philistine king Achish assigned to David during his exile from Saul. First Samuel 27:6 records the gift and explains why the town later belonged to Judah's kings.",
+        "en": "Ziklag was a southern town that the Philistine king Achish assigned to David during his exile from Saul. 1 Samuel 27:6 records the gift and explains why the town later belonged to Judah's kings.",
         "zh": "洗革拉是南方城镇，大卫逃避扫罗期间，非利士王亚吉把它分给大卫。撒母耳记上27:6记载这次赐予，也解释该城为何后来归犹大诸王。"
       },
       "sampleVerse": {
@@ -4977,7 +4977,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Geba was a Benjaminite Levitical town near the northern border of Judah. First Kings 15:22 records Asa using stones and timber from Baasha's abandoned fortification at Ramah to build up Geba and Mizpah.",
+        "en": "Geba was a Benjaminite Levitical town near the northern border of Judah. 1 Kings 15:22 records Asa using stones and timber from Baasha's abandoned fortification at Ramah to build up Geba and Mizpah.",
         "zh": "迦巴是便雅悯境内的利未城，靠近犹大北界。列王纪上15:22记载亚撒用巴沙遗留在拉玛的石木，加固迦巴和米斯巴。"
       },
       "sampleVerse": {
@@ -5061,7 +5061,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Maachah daughter of Talmai, king of Geshur, was one of David's wives and the mother of Absalom. Second Samuel 3:3 identifies her in David's Hebron household, explaining Absalom's connection to both Israel and Geshur.",
+        "en": "Maachah daughter of Talmai, king of Geshur, was one of David's wives and the mother of Absalom. 2 Samuel 3:3 identifies her in David's Hebron household, explaining Absalom's connection to both Israel and Geshur.",
         "zh": "基述王达买的女儿玛迦是大卫的妻子之一，也是押沙龙的母亲。撒母耳记下3:3在大卫的希伯仑家庭中介绍她，说明押沙龙与以色列、基述两地的关系。"
       },
       "sampleVerse": {
@@ -5131,7 +5131,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Seraiah was the chief priest in Jerusalem when Babylon destroyed the city and temple. Second Kings 25:18 records the captain of the guard taking him captive, after which he was executed at Riblah.",
+        "en": "Seraiah was the chief priest in Jerusalem when Babylon destroyed the city and temple. 2 Kings 25:18 records the captain of the guard taking him captive, after which he was executed at Riblah.",
         "zh": "西莱雅是巴比伦毁灭耶路撒冷和圣殿时的大祭司。列王纪下25:18记载护卫长把他掳去，随后他在利比拉被处死。"
       },
       "sampleVerse": {
@@ -5145,12 +5145,12 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Abihu was Aaron's second son and one of the first priests of Israel. Leviticus 10:1 records him and Nadab offering strange fire that God had not commanded, a fatal violation of sanctuary holiness.",
-        "zh": "亚比户是亚伦的第二个儿子，也是以色列最早的祭司之一。利未记10:1记载他与拿答献上上帝没有吩咐的凡火，严重违犯圣所的神圣。"
+        "en": "Abihu was Aaron's second son and one of the first priests of Israel. Exodus 6:23 names him among the four sons born to Aaron and Elisheba, the family from which Israel's priesthood came.",
+        "zh": "亚比户是亚伦的第二个儿子，也是以色列最早的祭司之一。出埃及记6:23把他列在亚伦与以利沙巴所生的四个儿子中，以色列的祭司职分正出自这个家族。"
       },
       "sampleVerse": {
-        "reference": "Leviticus 10:1",
-        "text": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not."
+        "reference": "Exodus 6:23",
+        "text": "And Aaron took him Elisheba, daughter of Amminadab, sister of Naashon, to wife; and she bare him Nadab, and Abihu, Eleazar, and Ithamar."
       }
     },
     {
@@ -5187,7 +5187,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Gehazi was Elisha's servant whose greed led him to obtain secret payment from the healed Naaman. Second Kings 5:25 records him lying to Elisha after returning, just before his deceit is exposed and punished.",
+        "en": "Gehazi was Elisha's servant whose greed led him to obtain secret payment from the healed Naaman. 2 Kings 5:25 records him lying to Elisha after returning, just before his deceit is exposed and punished.",
         "zh": "基哈西是以利沙的仆人，因贪心暗中向得医治的乃缦索取财物。列王纪下5:25记载他回来后向以利沙撒谎，随即欺骗被揭露并受惩罚。"
       },
       "sampleVerse": {
@@ -5229,7 +5229,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Hannah was Samuel's mother, whose grief over childlessness became persistent prayer and a vow of dedication. First Samuel 1:27 identifies Samuel as the child for whom she prayed, acknowledging God's direct answer before she returned him to sanctuary service.",
+        "en": "Hannah was Samuel's mother, whose grief over childlessness became persistent prayer and a vow of dedication. 1 Samuel 1:27 identifies Samuel as the child for whom she prayed, acknowledging God's direct answer before she returned him to sanctuary service.",
         "zh": "哈拿是撒母耳的母亲；她因无子而悲痛，却把痛苦转化为恒切祷告和献子誓愿。撒母耳记上1:27确认撒母耳就是她所求的孩子；她承认上帝亲自回应，随后把他带到圣所事奉。"
       },
       "sampleVerse": {
@@ -5327,7 +5327,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Megiddo was a strategic fortified city overlooking the Jezreel Valley and a route used by armies and trade. Second Kings 23:29 records King Josiah's fatal encounter with Pharaoh-necho there, making the site a symbol of decisive battle.",
+        "en": "Megiddo was a strategic fortified city overlooking the Jezreel Valley and a route used by armies and trade. 2 Kings 23:29 records King Josiah's fatal encounter with Pharaoh-necho there, making the site a symbol of decisive battle.",
         "zh": "米吉多是俯瞰耶斯列谷的战略坚城，控制军队和商旅通道。列王纪下23:29记载约西亚王在那里与法老尼哥相遇并受致命伤，使此地成为决定性战争的象征。"
       },
       "sampleVerse": {
@@ -5341,7 +5341,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Ophir was a distant region famed for exceptionally fine gold, though its precise location remains uncertain. First Kings 9:28 records Hiram and Solomon's fleet bringing a great weight of gold from there to Jerusalem.",
+        "en": "Ophir was a distant region famed for exceptionally fine gold, though its precise location remains uncertain. 1 Kings 9:28 records Hiram and Solomon's fleet bringing a great weight of gold from there to Jerusalem.",
         "zh": "俄斐是以优质黄金闻名的远方地区，确切位置至今不能确定。列王纪上9:28记载希兰和所罗门的船队从那里运回大量黄金到耶路撒冷。"
       },
       "sampleVerse": {
@@ -5369,7 +5369,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Zimri was an Israelite officer who murdered King Elah, seized the throne, and reigned only seven days. First Kings 16:18 records him burning the palace over himself when Omri captured Tirzah, ending his brief coup.",
+        "en": "Zimri was an Israelite officer who murdered King Elah, seized the throne, and reigned only seven days. 1 Kings 16:18 records him burning the palace over himself when Omri captured Tirzah, ending his brief coup.",
         "zh": "心利是以色列军官，杀害以拉王后篡位，却只统治七天。列王纪上16:18记载暗利攻入得撒时，他纵火焚烧王宫并死在其中，结束短暂政变。"
       },
       "sampleVerse": {
@@ -5425,7 +5425,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Pekah son of Remaliah was an Israelite captain who assassinated Pekahiah and seized the northern throne. Second Kings 15:25 records the conspiracy and Gileadite support behind his rise, which later drew Israel into war with Judah.",
+        "en": "Pekah son of Remaliah was an Israelite captain who assassinated Pekahiah and seized the northern throne. 2 Kings 15:25 records the conspiracy and Gileadite support behind his rise, which later drew Israel into war with Judah.",
         "zh": "利玛利的儿子比加是以色列将领，刺杀比加辖后夺取北国王位。列王纪下15:25记载这场阴谋和基列人的支持；他后来又把以色列带入与犹大的战争。"
       },
       "sampleVerse": {
@@ -5439,7 +5439,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Riblah was a strategic town on the Orontes where Babylon's king kept headquarters during the final conquest of Judah. Second Kings 25:6 records the captured Zedekiah brought there for judgment before Jerusalem's destruction was completed.",
+        "en": "Riblah was a strategic town on the Orontes where Babylon's king kept headquarters during the final conquest of Judah. 2 Kings 25:6 records the captured Zedekiah brought there for judgment before Jerusalem's destruction was completed.",
         "zh": "利比拉是奥龙特斯河畔的战略城镇，巴比伦王在最后征服犹大时把总部设在那里。列王纪下25:6记载被擒的西底家被带到那里受审，随后耶路撒冷的毁灭完成。"
       },
       "sampleVerse": {
@@ -5453,7 +5453,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Zobah was an Aramean kingdom north of Damascus extending toward the Euphrates. Second Samuel 8:3 records David defeating its king Hadadezer as he sought to restore control near the great river.",
+        "en": "Zobah was an Aramean kingdom north of Damascus extending toward the Euphrates. 2 Samuel 8:3 records David defeating its king Hadadezer as he sought to restore control near the great river.",
         "zh": "琐巴是大马士革以北、向幼发拉底河延伸的亚兰王国。撒母耳记下8:3记载其王哈大底谢试图恢复大河附近的权势时，被大卫击败。"
       },
       "sampleVerse": {
@@ -5467,7 +5467,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Achaia was the Roman province covering southern Greece, with Corinth as its capital. Second Corinthians 1:1 addresses believers throughout Achaia along with the Corinthian church, showing a regional network larger than one city congregation.",
+        "en": "Achaia was the Roman province covering southern Greece, with Corinth as its capital. 2 Corinthians 1:1 addresses believers throughout Achaia along with the Corinthian church, showing a regional network larger than one city congregation.",
         "zh": "亚该亚是覆盖希腊南部的罗马行省，以哥林多为首府。哥林多后书1:1除哥林多教会外，也向亚该亚各地圣徒致意，显示超越单一城市堂会的区域网络。"
       },
       "sampleVerse": {
@@ -5565,7 +5565,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ahitub in this priestly genealogy was the son of Amariah and father of Zadok, the priest prominent under David and Solomon. First Chronicles 6:8 preserves that descent within Aaron's line.",
+        "en": "Ahitub in this priestly genealogy was the son of Amariah and father of Zadok, the priest prominent under David and Solomon. 1 Chronicles 6:8 preserves that descent within Aaron's line.",
         "zh": "这段祭司家谱中的亚希突是亚玛利雅的儿子、撒督的父亲；撒督后来在大卫和所罗门时期担任重要祭司。历代志上6:8把这层传承保存在亚伦谱系中。"
       },
       "sampleVerse": {
@@ -5593,7 +5593,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Bela was Benjamin's first-named son and ancestor of a prominent Benjaminite clan; the name also belonged to other people and a city. First Chronicles 7:6 lists him with Becher and Jediael in Benjamin's genealogy.",
+        "en": "Bela was Benjamin's first-named son and ancestor of a prominent Benjaminite clan; the name also belonged to other people and a city. 1 Chronicles 7:6 lists him with Becher and Jediael in Benjamin's genealogy.",
         "zh": "比拉是便雅悯首先列出的儿子，也是便雅悯重要宗族的先祖；这个名字也用于其他人物和一座城。历代志上7:6在便雅悯家谱中把他与比结、耶叠并列。"
       },
       "sampleVerse": {
@@ -5621,7 +5621,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Dagon was a chief Philistine deity worshiped in temples at Ashdod and Gaza. First Samuel 5:4 records his idol fallen and broken before the captured ark, showing that the Philistines had not conquered Israel's God.",
+        "en": "Dagon was a chief Philistine deity worshiped in temples at Ashdod and Gaza. 1 Samuel 5:4 records his idol fallen and broken before the captured ark, showing that the Philistines had not conquered Israel's God.",
         "zh": "大衮是非利士人的主要神明，在亚实突和迦萨设有庙宇。撒母耳记上5:4记载其偶像在被掳的约柜前倒下破碎，显明非利士人并没有胜过以色列的上帝。"
       },
       "sampleVerse": {
@@ -5663,7 +5663,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Jabesh here means Jabesh-gilead, the town Saul once rescued from the Ammonites. First Samuel 31:13 records its people burying Saul and his sons after recovering their bodies, repaying that earlier deliverance with loyal honor.",
+        "en": "Jabesh here means Jabesh-gilead, the town Saul once rescued from the Ammonites. 1 Samuel 31:13 records its people burying Saul and his sons after recovering their bodies, repaying that earlier deliverance with loyal honor.",
         "zh": "这里的雅比指基列雅比，就是扫罗曾从亚扪人手中救出的城。撒母耳记上31:13记载居民取回扫罗和众子的遗体安葬，以忠诚尊荣回报昔日的拯救。"
       },
       "sampleVerse": {
@@ -5691,7 +5691,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "The Kidron is the seasonal brook and valley between Jerusalem and the Mount of Olives. Second Samuel 15:23 records David crossing it while fleeing Absalom, a sorrowful route Jesus would later also take from Jerusalem.",
+        "en": "The Kidron is the seasonal brook and valley between Jerusalem and the Mount of Olives. 2 Samuel 15:23 records David crossing it while fleeing Absalom, a sorrowful route Jesus would later also take from Jerusalem.",
         "zh": "汲沦是耶路撒冷与橄榄山之间的季节性溪流和谷地。撒母耳记下15:23记载大卫逃避押沙龙时渡过这里；后来耶稣离开耶路撒冷也走过这条悲伤的路。"
       },
       "sampleVerse": {
@@ -5733,7 +5733,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "This Rechab was one of Ish-bosheth's captains and, with his brother Baanah, assassinated Saul's son while he rested. Second Samuel 4:5 records their approach to his house, beginning a murder David condemned rather than rewarded.",
+        "en": "This Rechab was one of Ish-bosheth's captains and, with his brother Baanah, assassinated Saul's son while he rested. 2 Samuel 4:5 records their approach to his house, beginning a murder David condemned rather than rewarded.",
         "zh": "这里的利甲是伊施波设的军长之一，与兄弟巴拿趁扫罗的儿子休息时刺杀他。撒母耳记下4:5记载两人来到其家，开始一宗大卫后来谴责而非奖赏的谋杀。"
       },
       "sampleVerse": {
@@ -5747,7 +5747,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Rezin was the last king of Aram-Damascus and allied with Pekah of Israel against Judah. Second Kings 16:5 records their siege of Jerusalem, the crisis that drove Ahaz toward a disastrous alliance with Assyria.",
+        "en": "Rezin was the last king of Aram-Damascus and allied with Pekah of Israel against Judah. 2 Kings 16:5 records their siege of Jerusalem, the crisis that drove Ahaz toward a disastrous alliance with Assyria.",
         "zh": "利汛是亚兰大马士革最后一位王，与以色列王比加结盟攻打犹大。列王纪下16:5记载他们围困耶路撒冷；这场危机促使亚哈斯与亚述结成灾难性的联盟。"
       },
       "sampleVerse": {
@@ -5845,7 +5845,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Hadad was an Edomite prince who escaped Joab's slaughter, grew up in Egypt, and later opposed Solomon. First Kings 11:14 says the LORD raised him as an adversary, showing political trouble emerging during Solomon's unfaithfulness.",
+        "en": "Hadad was an Edomite prince who escaped Joab's slaughter, grew up in Egypt, and later opposed Solomon. 1 Kings 11:14 says the LORD raised him as an adversary, showing political trouble emerging during Solomon's unfaithfulness.",
         "zh": "哈达是逃过约押杀戮、在埃及长大的以东王子，后来敌对所罗门。列王纪上11:14说耶和华兴起他作对头，显示所罗门不忠时政治祸患随之出现。"
       },
       "sampleVerse": {
@@ -5859,7 +5859,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Hanun succeeded his father Nahash as king of Ammon and disastrously mistrusted David's condolence delegation. Second Samuel 10:4 records him humiliating the envoys, an insult that provoked war with Israel.",
+        "en": "Hanun succeeded his father Nahash as king of Ammon and disastrously mistrusted David's condolence delegation. 2 Samuel 10:4 records him humiliating the envoys, an insult that provoked war with Israel.",
         "zh": "哈嫩继父亲拿辖作亚扪王，却灾难性地误解了大卫前来吊唁的使团。撒母耳记下10:4记载他羞辱使者，这项侮辱引发与以色列的战争。"
       },
       "sampleVerse": {
@@ -5873,7 +5873,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Hoshea was the last king of northern Israel, ruling under Assyrian pressure after conspiring against Pekah. Second Kings 17:6 records Samaria's fall and Israel's deportation during his reign, bringing the kingdom to an end.",
+        "en": "Hoshea was the last king of northern Israel, ruling under Assyrian pressure after conspiring against Pekah. 2 Kings 17:6 records Samaria's fall and Israel's deportation during his reign, bringing the kingdom to an end.",
         "zh": "何细亚是北国以色列最后一位王，在谋害比加后，于亚述压力下统治。列王纪下17:6记载他在位时撒玛利亚陷落、以色列人被掳，使北国终结。"
       },
       "sampleVerse": {
@@ -6083,12 +6083,12 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Anah was a Horite descendant of Seir and a clan chief in Edomite genealogy; several relatives shared the name. Genesis 36:20 places him among Seir's sons who inhabited the land before Esau's descendants dominated it.",
-        "zh": "亚拿是西珥后裔中的何利人，也是以东家谱里的族长；亲族中另有人同名。创世记36:20把他列在原先居住那地的西珥众子中，早于以扫后裔取得主导。"
+        "en": "Anah was a Horite descendant of Seir and a clan chief in Edomite genealogy; several relatives shared the name. Genesis 36:24 singles out the Anah who made a discovery in the wilderness while pasturing his father's donkeys.",
+        "zh": "亚拿是西珥后裔中的何利人，也是以东家谱里的族长；亲族中另有人同名。创世记36:24特别提到那位在旷野牧放父亲的驴时有所发现的亚拿。"
       },
       "sampleVerse": {
-        "reference": "Genesis 36:20",
-        "text": "These are the sons of Seir the Horite, who inhabited the land; Lotan, and Shobal, and Zibeon, and Anah,"
+        "reference": "Genesis 36:24",
+        "text": "And these are the children of Zibeon; both Ajah, and Anah: this was that Anah that found the mules in the wilderness, as he fed the asses of Zibeon his father."
       }
     },
     {
@@ -6139,7 +6139,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Geshur was a small Aramean kingdom east of the Sea of Galilee and the homeland of Absalom's mother. Second Samuel 13:38 records Absalom living there three years after fleeing David for Amnon's murder.",
+        "en": "Geshur was a small Aramean kingdom east of the Sea of Galilee and the homeland of Absalom's mother. 2 Samuel 13:38 records Absalom living there three years after fleeing David for Amnon's murder.",
         "zh": "基述是加利利海东边的小亚兰王国，也是押沙龙母亲的故乡。撒母耳记下13:38记载押沙龙因杀暗嫩逃离大卫后，在那里住了三年。"
       },
       "sampleVerse": {
@@ -6153,7 +6153,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Joah son of Asaph was Hezekiah's recorder, a high official responsible for royal records and communication. Second Kings 18:18 names him among Judah's representatives who met the Assyrian spokesman outside Jerusalem.",
+        "en": "Joah son of Asaph was Hezekiah's recorder, a high official responsible for royal records and communication. 2 Kings 18:18 names him among Judah's representatives who met the Assyrian spokesman outside Jerusalem.",
         "zh": "亚萨的儿子约亚是希西家的史官，负责王室记录和传达事务。列王纪下18:18把他列在耶路撒冷城外会见亚述使者的犹大官员中。"
       },
       "sampleVerse": {
@@ -6223,7 +6223,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Adullam was a Canaanite town in Judah's lowlands with nearby caves that provided refuge. First Samuel 22:1 records David escaping to its cave, where family members and distressed people gathered around him.",
+        "en": "Adullam was a Canaanite town in Judah's lowlands with nearby caves that provided refuge. 1 Samuel 22:1 records David escaping to its cave, where family members and distressed people gathered around him.",
         "zh": "亚杜兰是犹大低地的迦南城，附近洞穴可供藏身。撒母耳记上22:1记载大卫逃进亚杜兰洞；家人和困苦的人随后聚集到他身边。"
       },
       "sampleVerse": {
@@ -6307,7 +6307,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Chemosh was the national god of Moab, whose worship Scripture condemns as idolatry. First Kings 11:7 records Solomon building a high place for Chemosh near Jerusalem, evidence that foreign alliances corrupted his devotion.",
+        "en": "Chemosh was the national god of Moab, whose worship Scripture condemns as idolatry. 1 Kings 11:7 records Solomon building a high place for Chemosh near Jerusalem, evidence that foreign alliances corrupted his devotion.",
         "zh": "基抹是摩押的民族神明，圣经谴责对它的敬拜为偶像崇拜。列王纪上11:7记载所罗门在耶路撒冷附近为基抹筑邱坛，证明外邦联盟败坏了他的忠诚。"
       },
       "sampleVerse": {
@@ -6363,7 +6363,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Hanani was a seer who rebuked Judah's King Asa for trusting Syria instead of the LORD. Second Chronicles 16:7 records his message that this political dependence cost Asa a fuller victory and brought continuing war.",
+        "en": "Hanani was a seer who rebuked Judah's King Asa for trusting Syria instead of the LORD. 2 Chronicles 16:7 records his message that this political dependence cost Asa a fuller victory and brought continuing war.",
         "zh": "哈拿尼是先见，责备犹大王亚撒倚靠叙利亚而不倚靠耶和华。历代志下16:7记载他指出，这种政治依赖使亚撒失去更完全的胜利，并带来持续战争。"
       },
       "sampleVerse": {
@@ -6377,12 +6377,12 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Kenaz was the father or close ancestor of Othniel and belonged to the clan associated with Caleb. Judges 3:9 identifies Othniel through him when God raises Israel's first judge to deliver the people.",
-        "zh": "基纳斯是俄陀聂的父亲或近祖，属于与迦勒相关的宗族。士师记3:9在上帝兴起第一位士师拯救以色列时，以基纳斯说明俄陀聂的身份。"
+        "en": "Kenaz was the father or close ancestor of Othniel and belonged to the clan associated with Caleb. 1 Chronicles 4:13 lists Othniel and Seraiah as his sons, preserving the family line of Israel's first judge.",
+        "zh": "基纳斯是俄陀聂的父亲或近祖，属于与迦勒相关的宗族。历代志上4:13把俄陀聂和西莱雅列为他的儿子，保存了以色列第一位士师的家族谱系。"
       },
       "sampleVerse": {
-        "reference": "Judges 3:9",
-        "text": "And when the children of Israel cried unto the LORD, the LORD raised up a deliverer to the children of Israel, who delivered them, even Othniel the son of Kenaz, Caleb's younger brother."
+        "reference": "1 Chronicles 4:13",
+        "text": "And the sons of Kenaz; Othniel, and Seraiah: and the sons of Othniel; Hathath."
       }
     },
     {
@@ -6405,7 +6405,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Menahem seized Israel's throne by killing Shallum and ruled with notable cruelty. Second Kings 15:19 records him paying the Assyrian king Pul a huge tribute to secure royal power, increasing foreign control over Israel.",
+        "en": "Menahem seized Israel's throne by killing Shallum and ruled with notable cruelty. 2 Kings 15:19 records him paying the Assyrian king Pul a huge tribute to secure royal power, increasing foreign control over Israel.",
         "zh": "米拿现杀死沙龙夺取以色列王位，以残暴统治著称。列王纪下15:19记载他向亚述王普勒缴纳巨额贡银以巩固王权，加深外国对以色列的控制。"
       },
       "sampleVerse": {
@@ -6419,7 +6419,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "The Millo was a filled or terraced fortification forming part of ancient Jerusalem's defenses. Second Samuel 5:9 says David built the captured stronghold outward from it as he established the city of David.",
+        "en": "The Millo was a filled or terraced fortification forming part of ancient Jerusalem's defenses. 2 Samuel 5:9 says David built the captured stronghold outward from it as he established the city of David.",
         "zh": "米罗是以填土或台地构成的防御设施，属于古耶路撒冷城防的一部分。撒母耳记下5:9说大卫攻取保障后，从米罗向外修筑，建立大卫城。"
       },
       "sampleVerse": {
@@ -6461,12 +6461,12 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Tubal was a son of Japheth and the ancestor-name of a people north of the biblical Near East. Ezekiel 27:13 lists Tubal and Meshech trading with Tyre in enslaved persons and bronze vessels, exposing commerce that included human lives.",
-        "zh": "土巴是雅弗的儿子，也是圣经近东北方一个民族的祖先之名。以西结书27:13列出土巴和米设与推罗交易人口和铜器，揭露商业中也包括被奴役的人命。"
+        "en": "Tubal was a son of Japheth and the ancestor-name of a people north of the biblical Near East. Isaiah 66:19 lists Tubal among distant nations to which survivors are sent to declare God's glory among peoples who have not heard.",
+        "zh": "土巴是雅弗的儿子，也是圣经近东北方一个民族的祖先之名。以赛亚书66:19把土巴列在遥远的列国中，逃脱的人要被差到那些未曾听见的民族里传扬上帝的荣耀。"
       },
       "sampleVerse": {
-        "reference": "Ezekiel 27:13",
-        "text": "Javan, Tubal, and Meshech, they were thy merchants: they traded the persons of men and vessels of brass in thy market."
+        "reference": "Isaiah 66:19",
+        "text": "And I will set a sign among them, and I will send those that escape of them unto the nations, to Tarshish, Pul, and Lud, that draw the bow, to Tubal, and Javan, to the isles afar off, that have not heard my fame, neither have seen my glory; and they shall declare my glory among the Gentiles."
       }
     },
     {
@@ -6475,7 +6475,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Urijah was the high priest under King Ahaz who copied a foreign altar from Damascus at the king's command. Second Kings 16:16 records his compliance, showing priestly failure to resist royal corruption of temple worship.",
+        "en": "Urijah was the high priest under King Ahaz who copied a foreign altar from Damascus at the king's command. 2 Kings 16:16 records his compliance, showing priestly failure to resist royal corruption of temple worship.",
         "zh": "乌利亚是亚哈斯王时期的大祭司，奉王命仿造大马士革的外邦祭坛。列王纪下16:16记载他完全照办，显出祭司没有抵抗王对圣殿敬拜的败坏。"
       },
       "sampleVerse": {
@@ -6489,7 +6489,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Ziph was a town and wilderness district in Judah's hill country where David hid from Saul. First Samuel 23:19 records local Ziphites betraying his location to the king, though David escaped capture.",
+        "en": "Ziph was a town and wilderness district in Judah's hill country where David hid from Saul. 1 Samuel 23:19 records local Ziphites betraying his location to the king, though David escaped capture.",
         "zh": "西弗是犹大山地的城和旷野地区，大卫曾在那里躲避扫罗。撒母耳记上23:19记载当地西弗人向王告密大卫的位置，但大卫仍逃脱追捕。"
       },
       "sampleVerse": {
@@ -6531,7 +6531,7 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Immer was the ancestor-name of the sixteenth priestly division organized for temple service. First Chronicles 24:14 records that course in the ordered rotation established for Aaron's descendants.",
+        "en": "Immer was the ancestor-name of the sixteenth priestly division organized for temple service. 1 Chronicles 24:14 records that course in the ordered rotation established for Aaron's descendants.",
         "zh": "音麦是圣殿事奉中第十六个祭司班次的祖先之名。历代志上24:14把这一班列入为亚伦后裔设立的有序轮值中。"
       },
       "sampleVerse": {
@@ -6657,7 +6657,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ezer was one of the Gadite warriors who crossed to join David at his wilderness stronghold. First Chronicles 12:9 names him as the chief among a group described as courageous and skilled in battle.",
+        "en": "Ezer was one of the Gadite warriors who crossed to join David at his wilderness stronghold. 1 Chronicles 12:9 names him as the chief among a group described as courageous and skilled in battle.",
         "zh": "以薛是越过河流、到旷野保障投奔大卫的迦得勇士之一。历代志上12:9称他为这群勇敢善战之人的首领。"
       },
       "sampleVerse": {
@@ -6685,7 +6685,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ittai was a recent exile from Gath who led six hundred men and chose loyalty to David during Absalom's revolt. Second Samuel 15:21 records his oath to remain with the king whether it meant life or death.",
+        "en": "Ittai was a recent exile from Gath who led six hundred men and chose loyalty to David during Absalom's revolt. 2 Samuel 15:21 records his oath to remain with the king whether it meant life or death.",
         "zh": "以太是刚从迦特流亡而来、带领六百人的将领；押沙龙叛乱时，他选择忠于大卫。撒母耳记下15:21记载他起誓，无论生死都要与王同在。"
       },
       "sampleVerse": {
@@ -6773,7 +6773,7 @@
         "zh": "琐安是尼罗河三角洲的古埃及城市，又称塔尼斯。诗篇78:12把出埃及的奇事定位在琐安田野，以这座名城代表法老的国土。"
       },
       "sampleVerse": {
-        "reference": "Psalms 78:12",
+        "reference": "Psalm 78:12",
         "text": "Marvellous things did he in the sight of their fathers, in the land of Egypt, in the field of Zoan."
       }
     },
@@ -6797,7 +6797,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Agag was the title or name of the Amalekite king whom Saul captured in battle. First Samuel 15:9 records Saul sparing him and the best livestock against God's command, an act of disobedience that cost Saul the dynasty.",
+        "en": "Agag was the title or name of the Amalekite king whom Saul captured in battle. 1 Samuel 15:9 records Saul sparing him and the best livestock against God's command, an act of disobedience that cost Saul the dynasty.",
         "zh": "亚甲是扫罗在战争中擒获之亚玛力王的名号或名字。撒母耳记上15:9记载扫罗违背上帝命令，留下他和上好牲畜；这项悖逆使扫罗失去王朝。"
       },
       "sampleVerse": {
@@ -6811,7 +6811,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Ahinoam of Jezreel was one of David's wives and the mother of his firstborn son Amnon; another Ahinoam was Saul's wife. First Samuel 25:43 records David marrying her alongside Abigail during his years away from Saul's court.",
+        "en": "Ahinoam of Jezreel was one of David's wives and the mother of his firstborn son Amnon; another Ahinoam was Saul's wife. 1 Samuel 25:43 records David marrying her alongside Abigail during his years away from Saul's court.",
         "zh": "耶斯列人亚希暖是大卫的妻子之一，也是长子暗嫩的母亲；扫罗的妻子另有一位同名者。撒母耳记上25:43记载大卫离开扫罗宫廷期间娶她，并同时提到亚比该。"
       },
       "sampleVerse": {
@@ -6825,7 +6825,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Akkub was the name of a temple gatekeeper family that served after the exile, as well as other biblical individuals. First Chronicles 9:17 lists Akkub among the chief porters responsible for guarded access in Jerusalem.",
+        "en": "Akkub was the name of a temple gatekeeper family that served after the exile, as well as other biblical individuals. 1 Chronicles 9:17 lists Akkub among the chief porters responsible for guarded access in Jerusalem.",
         "zh": "亚谷是被掳归回后担任圣殿守门之宗族的名称，也有其他圣经人物同名。历代志上9:17把亚谷列在负责守护耶路撒冷出入口的主要守门者中。"
       },
       "sampleVerse": {
@@ -6839,12 +6839,12 @@
       "tier": "B",
       "category": "person/place",
       "explanation": {
-        "en": "Asshur was a son of Shem and the ancestor-name linked with Assyria and its earliest cities. Genesis 10:22 places him in Shem's family line alongside Elam and Aram.",
-        "zh": "亚述是闪的儿子，也是与亚述民族及其早期城市相连的祖先名称。创世记10:22把他与以拦、亚兰等一同列在闪的家谱中。"
+        "en": "Asshur was a son of Shem and the ancestor-name linked with Assyria and its earliest cities. Genesis 10:11 connects the name with the founding of Nineveh and other cities that later formed the Assyrian heartland.",
+        "zh": "亚述是闪的儿子，也是与亚述民族及其早期城市相连的祖先名称。创世记10:11把这名字与尼尼微等城的建立相连，那里后来成为亚述的核心地带。"
       },
       "sampleVerse": {
-        "reference": "Genesis 10:22",
-        "text": "The children of Shem; Elam, and Asshur, and Arphaxad, and Lud, and Aram."
+        "reference": "Genesis 10:11",
+        "text": "Out of that land went forth Asshur, and builded Nineveh, and the city Rehoboth, and Calah,"
       }
     },
     {
@@ -6937,7 +6937,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Shammah son of Agee was one of David's three outstanding mighty men. Second Samuel 23:11 records him standing in a lentil field abandoned by Israel and defending it against the Philistines.",
+        "en": "Shammah son of Agee was one of David's three outstanding mighty men. 2 Samuel 23:11 records him standing in a lentil field abandoned by Israel and defending it against the Philistines.",
         "zh": "亚基的儿子沙玛是大卫三位杰出勇士之一。撒母耳记下23:11记载以色列人逃跑时，他独守一块红豆田，抵挡非利士人。"
       },
       "sampleVerse": {
@@ -6951,7 +6951,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Shishak was the Egyptian pharaoh who invaded Judah early in Rehoboam's reign. First Kings 14:25 records his advance against Jerusalem, which stripped wealth from the temple and palace after Judah's unfaithfulness.",
+        "en": "Shishak was the Egyptian pharaoh who invaded Judah early in Rehoboam's reign. 1 Kings 14:25 records his advance against Jerusalem, which stripped wealth from the temple and palace after Judah's unfaithfulness.",
         "zh": "示撒是罗波安统治初期入侵犹大的埃及法老。列王纪上14:25记载他进攻耶路撒冷；犹大不忠之后，圣殿和王宫的财富被夺。"
       },
       "sampleVerse": {
@@ -7063,7 +7063,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Engedi is a freshwater oasis in the cliffs west of the Dead Sea, surrounded by the wilderness where David hid. First Samuel 24:1 records Saul pursuing him there, before David spares the king in a cave.",
+        "en": "Engedi is a freshwater oasis in the cliffs west of the Dead Sea, surrounded by the wilderness where David hid. 1 Samuel 24:1 records Saul pursuing him there, before David spares the king in a cave.",
         "zh": "隐基底是死海西岸峭壁中的淡水绿洲，周围旷野曾是大卫藏身之地。撒母耳记上24:1记载扫罗在那里追赶大卫，随后大卫却在洞中饶了王。"
       },
       "sampleVerse": {
@@ -7091,7 +7091,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Goliath was the heavily armed Philistine champion from Gath who challenged Israel for forty days. First Samuel 17:4 introduces his extraordinary stature before David defeats him by trusting the LORD with a sling and stone.",
+        "en": "Goliath was the heavily armed Philistine champion from Gath who challenged Israel for forty days. 1 Samuel 17:4 introduces his extraordinary stature before David defeats him by trusting the LORD with a sling and stone.",
         "zh": "歌利亚是来自迦特、全副武装的非利士勇士，向以色列挑战四十天。撒母耳记上17:4先介绍他非凡的身量，随后大卫倚靠耶和华，以机弦和石子击败他。"
       },
       "sampleVerse": {
@@ -7203,7 +7203,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Uzzah was Abinadab's son and helped drive the cart carrying the ark toward Jerusalem. Second Samuel 6:7 records his death after touching the ark when the oxen stumbled, exposing the danger of moving God's holy symbol contrary to given instructions.",
+        "en": "Uzzah was Abinadab's son and helped drive the cart carrying the ark toward Jerusalem. 2 Samuel 6:7 records his death after touching the ark when the oxen stumbled, exposing the danger of moving God's holy symbol contrary to given instructions.",
         "zh": "乌撒是亚比拿达的儿子，协助用车把约柜运往耶路撒冷。撒母耳记下6:7记载牛失前蹄时他伸手扶柜而死，显出违背既定指示搬运上帝圣物的危险。"
       },
       "sampleVerse": {
@@ -7231,12 +7231,12 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Bahurim was a village on the road east from Jerusalem toward the Jordan Valley. Second Samuel 16:5 records Shimei coming from there to curse and stone David as the king fled Absalom.",
-        "zh": "巴户琳是从耶路撒冷向东通往约旦谷道路上的村庄。撒母耳记下16:5记载大卫逃避押沙龙时，示每从那里出来咒骂并向王扔石头。"
+        "en": "Bahurim was a village on the road east from Jerusalem toward the Jordan Valley. 2 Samuel 17:18 records David's messengers hiding in a well in a courtyard there while escaping Absalom's pursuers.",
+        "zh": "巴户琳是从耶路撒冷向东通往约旦谷道路上的村庄。撒母耳记下17:18记载大卫的信使为躲避押沙龙的追兵，藏身在那里一户人家院中的井里。"
       },
       "sampleVerse": {
-        "reference": "2 Samuel 16:5",
-        "text": "And when king David came to Bahurim, behold, thence came out a man of the family of the house of Saul, whose name was Shimei, the son of Gera: he came forth, and cursed still as he came."
+        "reference": "2 Samuel 17:18",
+        "text": "Nevertheless a lad saw them, and told Absalom: but they went both of them away quickly, and came to a man's house in Bahurim, which had a well in his court; whither they went down."
       }
     },
     {
@@ -7245,7 +7245,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Gihon was Jerusalem's principal spring and a crucial water source on the city's eastern side; the same name also belongs to an Eden river. First Kings 1:38 records Solomon being taken to the spring for public anointing as king.",
+        "en": "Gihon was Jerusalem's principal spring and a crucial water source on the city's eastern side; the same name also belongs to an Eden river. 1 Kings 1:38 records Solomon being taken to the spring for public anointing as king.",
         "zh": "基训是耶路撒冷东侧的主要泉源，对城市供水极重要；伊甸的一条河也使用同名。列王纪上1:38记载所罗门被带到泉旁，公开受膏为王。"
       },
       "sampleVerse": {
@@ -7273,7 +7273,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Naioth was the community or dwellings of prophets associated with Samuel at Ramah. First Samuel 19:18 records David fleeing there to tell Samuel of Saul's attempt on his life and finding temporary refuge.",
+        "en": "Naioth was the community or dwellings of prophets associated with Samuel at Ramah. 1 Samuel 19:18 records David fleeing there to tell Samuel of Saul's attempt on his life and finding temporary refuge.",
         "zh": "拿约是拉玛附近与撒母耳有关的先知群体或住处。撒母耳记上19:18记载大卫逃到那里，把扫罗企图杀他的事告诉撒母耳，并得到暂时庇护。"
       },
       "sampleVerse": {
@@ -7301,7 +7301,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Abishag was a young woman from Shunem chosen to care for the aged King David and keep him warm. First Kings 1:3 records the search that brought her to court; after David's death, Adonijah's request for her carried a claim to royal status.",
+        "en": "Abishag was a young woman from Shunem chosen to care for the aged King David and keep him warm. 1 Kings 1:3 records the search that brought her to court; after David's death, Adonijah's request for her carried a claim to royal status.",
         "zh": "亚比煞是来自书念的年轻女子，被选来照顾年老的大卫王、为他取暖。列王纪上1:3记载寻找并把她带入宫廷；大卫死后，亚多尼雅求娶她的请求也带有争夺王位的意味。"
       },
       "sampleVerse": {
@@ -7315,12 +7315,12 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Admah was one of the cities of the Jordan plain destroyed with Sodom and Gomorrah. Deuteronomy 29:23 recalls its sulphur, salt, and barrenness as a warning of covenant judgment upon persistent rebellion.",
-        "zh": "押玛是约旦平原诸城之一，与所多玛、蛾摩拉一同毁灭。申命记29:23以硫磺、盐碱和不毛之地回顾它，作为持续背叛盟约所受审判的警戒。"
+        "en": "Admah was one of the cities of the Jordan plain destroyed with Sodom and Gomorrah. Hosea 11:8 recalls its overthrow as God asks how he could give Israel up, revealing compassion that recoils from such judgment.",
+        "zh": "押玛是约旦平原诸城之一，与所多玛、蛾摩拉一同毁灭。何西阿书11:8以押玛的倾覆为背景，记下上帝“怎能舍弃你”的发问，显出祂不忍如此审判的怜悯。"
       },
       "sampleVerse": {
-        "reference": "Deuteronomy 29:23",
-        "text": "And that the whole land thereof is brimstone, and salt, and burning, that it is not sown, nor beareth, nor any grass groweth therein, like the overthrow of Sodom, and Gomorrah, Admah, and Zeboim, which the LORD overthrew in his anger, and in his wrath:"
+        "reference": "Hosea 11:8",
+        "text": "How shall I give thee up, Ephraim? how shall I deliver thee, Israel? how shall I make thee as Admah? how shall I set thee as Zeboim? mine heart is turned within me, my repentings are kindled together."
       }
     },
     {
@@ -7329,7 +7329,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Arpad was a fortified Syrian city near Hamath conquered by Assyria. Second Kings 18:34 places it in the Assyrian envoy's boast that no local gods had saved their cities, a claim he wrongly extended against the LORD.",
+        "en": "Arpad was a fortified Syrian city near Hamath conquered by Assyria. 2 Kings 18:34 places it in the Assyrian envoy's boast that no local gods had saved their cities, a claim he wrongly extended against the LORD.",
         "zh": "亚珥拔是哈马附近的叙利亚坚城，曾被亚述征服。列王纪下18:34把它列入亚述使者的夸口：当地神明都未能救城；他又错误地把同样说法用于耶和华。"
       },
       "sampleVerse": {
@@ -7427,12 +7427,12 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Gozan was a Mesopotamian region on the Habor river where Assyria resettled conquered peoples. Second Kings 17:6 names it among the destinations of Israelites deported after Samaria fell.",
-        "zh": "歌散是美索不达米亚哈博河一带，亚述把被征服民族迁往那里。列王纪下17:6把它列在撒玛利亚陷落后以色列被掳者的安置地中。"
+        "en": "Gozan was a Mesopotamian region on the Habor river where Assyria resettled conquered peoples. 2 Kings 19:12 has Assyria's envoy list Gozan among nations whose gods failed to save them, a boast answered by God's deliverance of Jerusalem.",
+        "zh": "歌散是美索不达米亚哈博河一带，亚述把被征服民族迁往那里。列王纪下19:12记载亚述使者把歌散列在诸神未能拯救的列国中夸口，而上帝随后拯救了耶路撒冷。"
       },
       "sampleVerse": {
-        "reference": "2 Kings 17:6",
-        "text": "In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria, and placed them in Halah and in Habor by the river of Gozan, and in the cities of the Medes."
+        "reference": "2 Kings 19:12",
+        "text": "Have the gods of the nations delivered them which my fathers have destroyed; as Gozan, and Haran, and Rezeph, and the children of Eden which were in Thelasar?"
       }
     },
     {
@@ -7441,7 +7441,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Haggith was one of David's wives and the mother of his son Adonijah. Second Samuel 3:4 identifies her in the list of sons born during David's reign at Hebron, before Adonijah later sought the throne.",
+        "en": "Haggith was one of David's wives and the mother of his son Adonijah. 2 Samuel 3:4 identifies her in the list of sons born during David's reign at Hebron, before Adonijah later sought the throne.",
         "zh": "哈及是大卫的妻子之一，也是儿子亚多尼雅的母亲。撒母耳记下3:4在大卫统治希伯仑时所生众子中介绍她，时间早于亚多尼雅后来争夺王位。"
       },
       "sampleVerse": {
@@ -7455,7 +7455,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Hophni was one of Eli's priestly sons whose abuse of sacrifice and worship brought judgment on the household. First Samuel 2:12 calls Hophni and Phinehas sons of Belial who did not know the LORD, despite holding sacred office.",
+        "en": "Hophni was one of Eli's priestly sons whose abuse of sacrifice and worship brought judgment on the household. 1 Samuel 2:12 calls Hophni and Phinehas sons of Belial who did not know the LORD, despite holding sacred office.",
         "zh": "何弗尼是祭司以利的儿子之一；他滥用献祭和敬拜，使全家受到审判。撒母耳记上2:12称何弗尼和非尼哈为不认识耶和华的恶人，尽管他们身居圣职。"
       },
       "sampleVerse": {
@@ -7581,12 +7581,12 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Talmon was a Levitical gatekeeper whose descendants continued guarding temple entrances after the exile. First Chronicles 9:17 names him with Shallum, Akkub, and Ahiman among Jerusalem's porters.",
-        "zh": "达们是利未守门者；被掳归回后，他的后裔继续看守圣殿入口。历代志上9:17把他与沙龙、亚谷和亚希幔一同列在耶路撒冷守门人中。"
+        "en": "Talmon was a Levitical gatekeeper whose descendants continued guarding temple entrances after the exile. Ezra 2:42 counts his descendants among the porters who returned from Babylon to serve at the house of God.",
+        "zh": "达们是利未守门者；被掳归回后，他的后裔继续看守圣殿入口。以斯拉记2:42把他的子孙列在从巴比伦归回、在上帝殿中供职的守门人中。"
       },
       "sampleVerse": {
-        "reference": "1 Chronicles 9:17",
-        "text": "And the porters were, Shallum, and Akkub, and Talmon, and Ahiman, and their brethren: Shallum was the chief;"
+        "reference": "Ezra 2:42",
+        "text": "The children of the porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, in all an hundred thirty and nine."
       }
     },
     {
@@ -7623,7 +7623,7 @@
       "tier": "B",
       "category": "place",
       "explanation": {
-        "en": "Jebus was the Jebusite stronghold that occupied the site later known as Jerusalem. First Chronicles 11:4 records David and Israel moving against it, after which the captured fortress became the city of David.",
+        "en": "Jebus was the Jebusite stronghold that occupied the site later known as Jerusalem. 1 Chronicles 11:4 records David and Israel moving against it, after which the captured fortress became the city of David.",
         "zh": "耶布斯是耶布斯人在后来称为耶路撒冷之地点所建的保障。历代志上11:4记载大卫和以色列进攻此城；攻取后，堡垒成为大卫城。"
       },
       "sampleVerse": {
@@ -7665,7 +7665,7 @@
       "tier": "B",
       "category": "person",
       "explanation": {
-        "en": "Abiel was the father of Ner and thus an ancestor of both Saul and his commander Abner. First Samuel 14:51 preserves this Benjaminite family connection while explaining the kinship within Saul's court.",
+        "en": "Abiel was the father of Ner and thus an ancestor of both Saul and his commander Abner. 1 Samuel 14:51 preserves this Benjaminite family connection while explaining the kinship within Saul's court.",
         "zh": "亚别是尼珥的父亲，因此也是扫罗和元帅押尼珥的先祖。撒母耳记上14:51保存这层便雅悯家族关系，解释扫罗宫廷中的亲属联系。"
       },
       "sampleVerse": {
@@ -7735,12 +7735,12 @@
       "tier": "C",
       "category": "concept",
       "explanation": {
-        "en": "A palace is the residence and administrative complex of a king, containing courts, halls, and guarded chambers. Esther 1:2 places Ahasuerus on his throne in Shushan's palace, the imperial setting where Esther's story unfolds.",
-        "zh": "宫殿是君王居住和处理政务的建筑群，包含院落、大厅和受守卫的房间。以斯帖记1:2把亚哈随鲁安置在书珊宫中的王位上，确立以斯帖故事展开的帝国背景。"
+        "en": "A palace is the residence and administrative complex of a king, containing courts, halls, and guarded chambers. Daniel 4:29 finds Nebuchadnezzar walking in the palace of his kingdom, the setting of the boast that preceded his humbling.",
+        "zh": "宫殿是君王居住和处理政务的建筑群，包含院落、大厅和受守卫的房间。但以理书4:29记载尼布甲尼撒在他王国的宫殿中游行，正是在这里他说出那句导致自己被降卑的自夸。"
       },
       "sampleVerse": {
-        "reference": "Esther 1:2",
-        "text": "That in those days, when the king Ahasuerus sat on the throne of his kingdom, which was in Shushan the palace,"
+        "reference": "Daniel 4:29",
+        "text": "At the end of twelve months he walked in the palace of the kingdom of Babylon."
       }
     },
     {
@@ -7767,7 +7767,7 @@
         "zh": "盾牌是用来挡开武器的防御装备，也成为保护与信靠的象征。诗篇3:3在仇敌包围大卫时，称耶和华为他的盾牌、荣耀和使他抬起头的主。"
       },
       "sampleVerse": {
-        "reference": "Psalms 3:3",
+        "reference": "Psalm 3:3",
         "text": "But thou, O LORD, art a shield for me; my glory, and the lifter up of mine head."
       }
     },
@@ -7789,7 +7789,7 @@
       "word": "MARK",
       "length": 4,
       "tier": "C",
-      "category": "concept",
+      "category": "person",
       "explanation": {
         "en": "Mark, also called John Mark, was a Jerusalem believer, cousin of Barnabas, missionary coworker, and traditional author of the second Gospel. Acts 12:12 identifies his mother's house as a place where believers gathered to pray for imprisoned Peter.",
         "zh": "马可又称约翰马可，是耶路撒冷信徒、巴拿巴的表亲、宣教同工，传统认为他写了第二卷福音书。使徒行传12:12称他母亲的家为信徒聚集、为被囚彼得祷告的地方。"
@@ -7819,12 +7819,12 @@
       "tier": "C",
       "category": "concept",
       "explanation": {
-        "en": "The olive is a hardy Mediterranean tree whose fruit supplies oil for food, light, anointing, and sanctuary use. Genesis 8:11 records a dove returning to Noah with a fresh olive leaf, showing that floodwaters were receding from the land.",
-        "zh": "橄榄是耐旱的地中海树木，果实出油，用于食物、照明、膏抹和圣所。创世记8:11记载鸽子叼着新拧下的橄榄叶回到挪亚那里，表明洪水正从地上消退。"
+        "en": "The olive is a hardy Mediterranean tree whose fruit supplies oil for food, light, anointing, and sanctuary use. Romans 11:17 pictures a wild olive branch grafted into a cultivated tree, illustrating Gentiles brought into Israel's covenant root.",
+        "zh": "橄榄是耐旱的地中海树木，果实出油，用于食物、照明、膏抹和圣所。罗马书11:17以野橄榄枝被接在好树上的图画，说明外邦人被接入以色列盟约的根基。"
       },
       "sampleVerse": {
-        "reference": "Genesis 8:11",
-        "text": "And the dove came in to him in the evening; and, lo, in her mouth was an olive leaf pluckt off: so Noah knew that the waters were abated from off the earth."
+        "reference": "Romans 11:17",
+        "text": "And if some of the branches be broken off, and thou, being a wild olive tree, wert graffed in among them, and with them partakest of the root and fatness of the olive tree;"
       }
     },
     {
@@ -7859,7 +7859,7 @@
       "word": "JUDAS",
       "length": 5,
       "tier": "C",
-      "category": "concept",
+      "category": "person",
       "explanation": {
         "en": "Judas Iscariot was one of the Twelve who betrayed Jesus to the chief priests for payment. Matthew 26:14 records him initiating the arrangement, showing that privileged closeness to Christ did not remove freedom or responsibility.",
         "zh": "加略人犹大是十二使徒之一，却为金钱把耶稣出卖给祭司长。马太福音26:14记载他主动前去商议，显示亲近基督的特权并不会取消人的自由与责任。"
@@ -7875,7 +7875,7 @@
       "tier": "C",
       "category": "concept",
       "explanation": {
-        "en": "Charity in the KJV usually translates agape, meaning self-giving love rather than almsgiving alone. First Corinthians 13:13 places it with faith and hope and calls love the greatest because it shapes every Christian gift and action.",
+        "en": "Charity in the KJV usually translates agape, meaning self-giving love rather than almsgiving alone. 1 Corinthians 13:13 places it with faith and hope and calls love the greatest because it shapes every Christian gift and action.",
         "zh": "KJV 的 Charity 通常翻译 agape，意为舍己的爱，并不只指慈善施舍。哥林多前书13:13把它与信心、盼望并列，又称爱最大，因为爱塑造一切基督徒恩赐与行动。"
       },
       "sampleVerse": {
@@ -7907,7 +7907,7 @@
         "zh": "公义按正直施行，保护弱者，并不偏不倚地审判罪恶。诗篇89:14说公义和公平是上帝宝座的根基，慈爱和诚实行在祂前面，把正直与怜悯结合起来。"
       },
       "sampleVerse": {
-        "reference": "Psalms 89:14",
+        "reference": "Psalm 89:14",
         "text": "Justice and judgment are the habitation of thy throne: mercy and truth shall go before thy face."
       }
     },
@@ -7945,7 +7945,7 @@
       "tier": "C",
       "category": "concept",
       "explanation": {
-        "en": "Calling is God's summons into salvation, holiness, service, or a particular responsibility. Second Timothy 1:9 says the holy calling rests on God's purpose and grace rather than human works, while still directing the saved life toward holiness.",
+        "en": "Calling is God's summons into salvation, holiness, service, or a particular responsibility. 2 Timothy 1:9 says the holy calling rests on God's purpose and grace rather than human works, while still directing the saved life toward holiness.",
         "zh": "呼召是上帝召人进入救恩、圣洁、事奉或特定责任。提摩太后书1:9说圣召建立在上帝的旨意和恩典上，不靠人的行为，同时仍把得救的生命指向圣洁。"
       },
       "sampleVerse": {
@@ -7959,7 +7959,7 @@
       "tier": "C",
       "category": "concept",
       "explanation": {
-        "en": "Leaven is fermented dough used to make a new batch rise, so a small amount spreads its influence through the whole. First Corinthians 5:6 uses that process to warn that tolerated sin can permeate an entire congregation.",
+        "en": "Leaven is fermented dough used to make a new batch rise, so a small amount spreads its influence through the whole. 1 Corinthians 5:6 uses that process to warn that tolerated sin can permeate an entire congregation.",
         "zh": "酵是发酵的面团，用来使新面团膨起；少量便能把影响扩散到全部。哥林多前书5:6用这个过程警告，被容忍的罪会渗透整个教会。"
       },
       "sampleVerse": {
@@ -8029,12 +8029,12 @@
       "tier": "C",
       "category": "concept",
       "explanation": {
-        "en": "To hallow is to treat as holy, set apart, and honor with reverence rather than make something morally holy by human power. Matthew 6:9 begins Jesus' model prayer by asking that the Father's name be hallowed.",
-        "zh": "尊为圣就是以圣洁、分别和敬畏对待，并不是靠人的能力使上帝的名变得更圣洁。马太福音6:9以求父的名被尊为圣，开始耶稣所教导的祷告。"
+        "en": "To hallow is to treat as holy, set apart, and honor with reverence rather than make something morally holy by human power. Leviticus 22:32 forbids profaning God's name and declares that the LORD who sanctifies his people will be hallowed among them.",
+        "zh": "尊为圣就是以圣洁、分别和敬畏对待，并不是靠人的能力使上帝的名变得更圣洁。利未记22:32禁止亵渎上帝的圣名，并宣告那使百姓成圣的耶和华要在他们中间被尊为圣。"
       },
       "sampleVerse": {
-        "reference": "Matthew 6:9",
-        "text": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name."
+        "reference": "Leviticus 22:32",
+        "text": "Neither shall ye profane my holy name; but I will be hallowed among the children of Israel: I am the LORD which hallow you,"
       }
     },
     {
@@ -8113,7 +8113,7 @@
       "tier": "C",
       "category": "concept",
       "explanation": {
-        "en": "A thorn is a sharp plant growth and a biblical image of pain, obstruction, curse, or persistent affliction. Second Corinthians 12:7 calls Paul's unidentified suffering a thorn in the flesh that kept him dependent on Christ's sufficient grace.",
+        "en": "A thorn is a sharp plant growth and a biblical image of pain, obstruction, curse, or persistent affliction. 2 Corinthians 12:7 calls Paul's unidentified suffering a thorn in the flesh that kept him dependent on Christ's sufficient grace.",
         "zh": "刺是植物尖锐的突起，在圣经中也象征痛苦、阻碍、咒诅或持续的患难。哥林多后书12:7把保罗未说明的苦楚称为肉体中的刺，使他不断倚靠基督够用的恩典。"
       },
       "sampleVerse": {
