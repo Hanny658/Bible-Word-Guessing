@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bible Word Daily · 字里经心
 
-## Getting Started
+A small daily Bible-themed word game built with Next.js. Every UTC day selects one of 580 four-to-seven-letter answers, gives players a length-based number of attempts, and reveals a short English or Chinese explanation with a KJV sample verse.
 
-First, run the development server:
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>. No account, database, or environment variables are required.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data flow
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `data/answers.json` is committed runtime data and is imported through a `server-only` module.
+- `GET /api/daily` returns the UTC day's single answer and reveal content.
+- `public/words/v1/guesses-{4,5,6,7}.txt` contains static acceptable guesses. The browser downloads only the list matching today's answer length.
+- Board progress and language preference are stored only in the browser's `localStorage`.
+- `.doc/bible_word_candidates.csv` remains an ignored working document and is not required by production builds.
 
-## Learn More
+The ordinary English guesses come from [`word-list`](https://github.com/sindresorhus/word-list), an MIT-licensed word list. Bible answer terms are added to that set during generation.
 
-To learn more about Next.js, take a look at the following resources:
+## Data maintenance
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm data:import    # import working CSV, preserving existing explanations
+pnpm data:words     # regenerate the four versioned guess lists
+pnpm data:validate  # validate all answers and answer/guess-set invariants
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+When the answer data or word lists change, create a new dataset version instead of replacing files under `public/words/v1`, because v1 assets are served with immutable cache headers.
 
-## Deploy on Vercel
+## Verification
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm test
+pnpm lint
+pnpm build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`pnpm build` uses Next.js's webpack builder because the default Turbopack production build did not complete reliably in the original Windows workspace. Development still uses the default Next.js dev server.
