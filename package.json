@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build --webpack",
+    "dev": "next dev",
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
     "data:import": "node scripts/import-answer-candidates.mjs",
     "data:words": "node scripts/build-guess-lists.mjs",
-    "data:validate": "node scripts/validate-data.mjs"
+    "data:validate": "node scripts/validate-data.mjs",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.2",
     "motion": "^12.43.0",
     "next": "16.2.12",
     "react": "19.2.4",
@@ -29,6 +34,13 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^4.1.10",
-    "word-list": "^4.1.0"
+    "word-list": "^4.1.0",
+    "wrangler": "^4.118.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss": "^8.5.25",
+      "sharp": "^0.35.3"
+    }
   }
 }
