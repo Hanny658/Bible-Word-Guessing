@@ -17,6 +17,10 @@ import {
 } from "react";
 import { copyText } from "@/lib/client/clipboard";
 import {
+  getRowShakeNonce,
+  type RowShakeRequest,
+} from "@/lib/client/row-animation";
+import {
   getLanguageSnapshot,
   getServerLanguageSnapshot,
   loadProgress,
@@ -82,7 +86,7 @@ const COPY = {
   },
   zh: {
     brand: "字里经心",
-    subtitle: "一个小词，一段更大的故事。",
+    subtitle: "每日圣经猜词小游戏",
     loading: "正在翻开新的一页……",
     loadError: "暂时无法载入今天的词。",
     retry: "再试一次",
@@ -194,7 +198,7 @@ export function BibleWordGame() {
   const [loadNonce, setLoadNonce] = useState(0);
   const [message, setMessage] = useState("");
   const [announcement, setAnnouncement] = useState("");
-  const [shakeNonce, setShakeNonce] = useState(0);
+  const [shakeRequest, setShakeRequest] = useState<RowShakeRequest>(null);
   const [activeRevealRow, setActiveRevealRow] = useState<number | null>(null);
   const [celebratingRow, setCelebratingRow] = useState<number | null>(null);
   const [showHelp, setShowHelp] = useState(false);
@@ -281,9 +285,14 @@ export function BibleWordGame() {
   );
   const keyStates = useMemo(() => keyboardStates(evaluatedRows), [evaluatedRows]);
 
-  const showToast = useCallback((text: string, shake = false) => {
+  const showToast = useCallback((text: string, shakeRow?: number) => {
     setMessage(text);
-    if (shake) setShakeNonce((value) => value + 1);
+    if (shakeRow !== undefined) {
+      setShakeRequest((current) => ({
+        rowIndex: shakeRow,
+        nonce: (current?.nonce ?? 0) + 1,
+      }));
+    }
     if (messageTimer.current !== null) window.clearTimeout(messageTimer.current);
     messageTimer.current = window.setTimeout(() => setMessage(""), 1700);
   }, []);
@@ -298,11 +307,11 @@ export function BibleWordGame() {
       return;
     }
     if (currentGuess.length !== puzzle.length) {
-      showToast(copy.notEnough, true);
+      showToast(copy.notEnough, guesses.length);
       return;
     }
     if (!acceptableGuesses.has(currentGuess)) {
-      showToast(copy.notInList, true);
+      showToast(copy.notInList, guesses.length);
       return;
     }
 
@@ -315,6 +324,7 @@ export function BibleWordGame() {
     );
     setGuesses(nextGuesses);
     setCurrentGuess("");
+    setShakeRequest(null);
     setGameStatus(nextStatus);
     setActiveRevealRow(rowIndex);
 
@@ -507,7 +517,7 @@ export function BibleWordGame() {
                 current={isCurrent ? currentGuess : ""}
                 animateReveal={activeRevealRow === rowIndex}
                 celebrate={celebratingRow === rowIndex}
-                shake={isCurrent ? shakeNonce : 0}
+                shake={getRowShakeNonce(shakeRequest, rowIndex, isCurrent)}
                 reducedMotion={Boolean(reducedMotion)}
                 language={language}
               />
