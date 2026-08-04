@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "bible-word-guessing",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.14.0",
   "scripts": {
     "build": "next build --webpack",
     "dev": "next dev",
@@ -41,6 +42,10 @@
     "overrides": {
       "postcss": "^8.5.25",
       "sharp": "^0.35.3"
-    }
+    },
+    "ignoredBuiltDependencies": [
+      "sharp",
+      "unrs-resolver"
+    ]
   }
 }
